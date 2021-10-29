@@ -15,6 +15,8 @@
 </head>
 
 <body>
+    @include('navbar')
+
     <h1>Hello</h1>
 
     <!-- JavaScript Bundle with Popper -->
