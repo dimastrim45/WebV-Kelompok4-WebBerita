@@ -21,7 +21,7 @@
     <!-- About Card -->
 
     <section id="About">
-        <div class="container">
+        <div class="container" >
             <div class="row text-center">
                 <div class="col mb-5">
                     <h2> About Me </h2>
