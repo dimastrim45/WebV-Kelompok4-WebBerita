@@ -1,9 +1,9 @@
 <!-- footer -->
-
-<section class="footer shadow" id="footer">
-    <hr size="10px">
+<link rell="stylesheet" href="css/style.css">
+<hr size="10px">
+<section id="footer" class="footer"  >
     <div class="container">
-        <footer class="row flex-row pt-4 pb-4" style="background-color: #e2edff">
+        <footer class="row flex-row pt-4 pb-4">
 
             <div class="col-3 text-center">
                 <a href="/" class="justify-content-center mb-4 link-dark ">
@@ -94,3 +94,5 @@
                 </ul>
             </div>
         </footer>
+    </div>
+</section>

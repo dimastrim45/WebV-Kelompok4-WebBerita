@@ -28,8 +28,8 @@
                 </div>
             </div>
             <div class=""></div>
-            <div class="row">
-                <div class="col-md-4 mb-4">
+            <div class="row justify-content-center">
+                <div class="col-md-3 mb-3">
                     <div class="card">
                         <img src="img/dimas.jpg" class="card-img-top" alt="user1">
                         <div class="card-body">
@@ -46,8 +46,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
+                <div class="col-md-3 mb-3">
+                    <div class="card ">
                         <img src="img/riski.jpg" class="card-img-top" alt="user2">
                         <div class="card-body">
                             <h5>
@@ -63,7 +63,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-3">
                     <div class="card">
                         <img src="img/andre.jpg" class="card-img-top" alt="user3">
                         <div class="card-body">
