@@ -11,7 +11,7 @@
 
     <!-- My Css -->
 
-    <link rel="stylesheet" href="/css/style.css">
+
     <title>web</title>
 </head>
 
@@ -20,7 +20,7 @@
     @include('partials/navbar')
     <!-- About Card -->
 
-    <section id="About">
+    <section id="#">
         <div class="container" >
             <div class="row text-center">
                 <div class="col mb-5">
