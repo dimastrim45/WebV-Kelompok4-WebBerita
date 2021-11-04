@@ -12,11 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/welcome', function () {
-    return view('welcome', [
-        "title" => "Home"
-    ]);
-});
 
 Route::get('/', function () {
     return view('home', [
@@ -24,31 +19,31 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/health', function(){
+Route::get('/health', function () {
     return view('health', [
         "title" => "Health"
     ]);
 });
 
-Route::get('/education', function(){
+Route::get('/education', function () {
     return view('education', [
         "title" => "Education"
     ]);
 });
 
-Route::get('/techno', function(){
+Route::get('/techno', function () {
     return view('techno', [
         "title" => "Technology"
     ]);
 });
 
-Route::get('/food', function(){
+Route::get('/food', function () {
     return view('food', [
         "title" => "Food"
     ]);
 });
 
-Route::get('/about', function(){
+Route::get('/about', function () {
     return view('about', [
         "title" => "About",
         "name" => "Sam Martin",

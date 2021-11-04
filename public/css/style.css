@@ -1,5 +1,12 @@
-.footer {
+body {
+    min-height: 2000px;
+}
+
+#About {
+    background-color: #e2edff;
+}
+
+#footer {
     padding: 2rem 1rem;
     background-color: #e2edff;
-    border-top: 4px solid #3ca5dd;
 }
