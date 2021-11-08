@@ -1,8 +1,8 @@
 <!-- footer -->
 <link rel="stylesheet" href="css/style.css">
 
-<div class="footer">
-    <div class="container">
+
+    <div class="container border-top">
         <footer class="row justify-content-center pt-4 pb-4">
                 <div class="col text-center">
                     <a href="/" class="justify-content-center mb-4 link-dark ">
@@ -94,4 +94,3 @@
                 </div>
         </footer>
     </div>
-</div>

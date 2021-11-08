@@ -12,11 +12,6 @@
 }
 
 footer {
-    padding-top: 0rem;
-    padding-left: 1rem;
-    padding-bottom: 2rem;
-    padding-right: 1rem;
-
     background-color: #e2edff;
 }
 
@@ -33,10 +28,10 @@ footer {
     background-size: cover;
 }
 
-.container {
+/* .container {
     padding: 20px;
     text-align: center;
-}
+} */
 
 .container .text {
     font-size: 35px;

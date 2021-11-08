@@ -88,7 +88,7 @@
         <div class="col3">
             <div class="col3"> ini adalah judul buku </div>
             <div class="tanggal">Penulis : john : 5 nov 2021</div>
-            <div class="gambar"><img src="img/latar.jpg" alt=""></div>
+            <div class="gambar"><img src="img/latar.jpg" alt="" width="100"></div>
             <div class="isiberita">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
