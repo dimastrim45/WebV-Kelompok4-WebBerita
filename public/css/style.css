@@ -11,9 +11,9 @@
     border-top: 6px solid rgb(141, 195, 226);
 }
 
-footer {
+/* footer {
     background-color: #e2edff;
-}
+} */
 
 * {
     padding: 0;
@@ -28,54 +28,113 @@ footer {
     background-size: cover;
 }
 
+.container,
+.container-fluid {
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer__grid {
+    padding: 32px 0 52px;
+}
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -13px;
+    margin-right: -13px;
+}
+
+.nav--column {
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.nav--column .nav__item {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+/* .footer-nav--title {
+    margin-bottom: 8px;
+    font-size: 40px;
+    font-weight: bold;
+} */
 /* .container {
     padding: 20px;
     text-align: center;
 } */
 
-.container .text {
+.footer-nav {
+    padding-top: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+}
+
+.column-3 {
+    -ms-flex: 0.25;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+/* .container .text {
     font-size: 35px;
     color: white;
     text-shadow: 2px 2px 2px black;
-}
+} */
 
-.container .logo img {
+/* .container .logo img {
     width: 200px;
-}
+} */
 
 /* /Bagian Menu/ */
 
-.menu {
+/* .menu {
     width: 100%;
     float: left;
     background-image: linear-gradient(#1f0a60, #21007f);
-}
+} */
 
-.menuutama ul > li {
+/* .menuutama ul > li {
     float: left;
     list-style: none;
     text-transform: capitalize;
     font-size: 20px;
     padding: 25px;
-}
+} */
 
-.menuutama ul > li > a {
+/* .menuutama ul > li > a {
     text-decoration: none;
     color: white;
-}
+} */
 
-.menuutama ul > li:hover {
+/* .menuutama ul > li:hover {
     background-color: #dd2121;
-}
+} */
 
 /* kelas isi */
 
-.isi {
+/* .isi {
     width: 100%;
     float: left;
-}
+} */
 
-.isinya .col3 {
+/* .isinya .col3 {
     box-sizing: border-box;
     margin: 0.5%;
     width: 32.33%;
@@ -83,15 +142,15 @@ footer {
     background-color: white;
     border-radius: 10px;
     box-shadow: 1px 1px 10px black;
-}
+} */
 
-.gambar img {
+/* .gambar img {
     width: 100%;
     height: 30%;
     box-sizing: border-box;
-}
+} */
 
-.judul {
+/* .judul {
     width: 100%;
     box-sizing: border-box;
     background-image: linear-gradient(#004a79, #00137f);
@@ -102,52 +161,52 @@ footer {
     color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
+} */
 
-.tanggal {
+/* .tanggal {
     color: white;
     background-color: #17204e;
     padding: 10px 0px 10px 10px;
-}
+} */
 
-.isiberita {
+/* .isiberita {
     padding: 10px;
     text-align: justify;
-}
+} */
 
-.tombol {
+/* .tombol {
     width: 100%;
     text-align: right;
-}
+} */
 
-.tombol a {
+/* .tombol a {
     text-decoration: none;
-}
+} */
 
-.tombol .btn {
+/* .tombol .btn {
     padding: 10px;
     background-color: #17204e;
     font-size: 15px;
     color: white;
     padding: 10px 20px 10px 20px;
-}
+} */
 
-.tombol .btn:hover {
+/* .tombol .btn:hover {
     background-color: #dd2121;
-}
+} */
 
-.tag {
+/* .tag {
     clear: both;
     padding: 5px 10px 5px 10px;
     color: white;
     background-color: #17204e;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-}
+} */
 
 /* ini adalah bagian footer */
 
-.fot {
+/* .fot {
     box-sizing: border-box;
     width: 100%;
     background-image: linear-gradient(#1f0a60, #21007f);
@@ -155,4 +214,4 @@ footer {
     clear: both;
     color: white;
     padding: 20px 20px 20px 10px;
-}
+} */

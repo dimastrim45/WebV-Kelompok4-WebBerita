@@ -37,6 +37,12 @@ Route::get('/techno', function () {
     ]);
 });
 
+Route::get('/konten', function () {
+    return view('konten', [
+        "title" => "konten"
+    ]);
+});
+
 Route::get('/food', function () {
     return view('food', [
         "title" => "Food"

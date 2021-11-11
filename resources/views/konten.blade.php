@@ -1,36 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ilmu-detil.blogspot.com">
+    <title>Membuat Daftar Artikel Berita</title>
+    <!-- Bagian css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/test.css">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
-@extends('layout/main')
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+            Pusat Ilmu Secara Detil</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="clr1 active"><a href="index.html">Home</a></li>
+                <li class="clr2"><a href="">Programming</a></li>
+                <li class="clr3"><a href="">English</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</br></br></br></br>
 
-@section('container')
 <div class="container" style="margin-top:40px">
     <div class="row">
-        <div class="col-md-2">
-            <div class="panel panel-default">
-               <div class="panel-heading"><h4 class="text-center">Kabar Terkini</h4></div>
-               		<ul>
-                           <li>
-                               <a title="Xbox 360 Slim Belum Bisa Mainkan Game Bajakan" href="#">Xbox 360 Slim Belum Bisa Mainkan Game Ba...</a>
-                            </li>
-                            <li>
-                                <a title="Xbox 360 Slim Belum Bisa Mainkan Game Bajakan" href="#">Xbox 360 Slim Belum Bisa Mainkan Game Ba...</a>
-                            </li>
-                            <li>
-                                <a title="Xbox 360 Slim Belum Bisa Mainkan Game Bajakan" href="#">Xbox 360 Slim Belum Bisa Mainkan Game Ba...</a>
-                            </li>
-                            <li>
-                                <a title="Xbox 360 Slim Belum Bisa Mainkan Game Bajakan" href="#">Xbox 360 Slim Belum Bisa Mainkan Game Ba...</a>
-                            </li>
-                            <li>
-                                <a title="Xbox 360 Slim Belum Bisa Mainkan Game Bajakan" href="#">Xbox 360 Slim Belum Bisa Mainkan Game Ba...</a>
-                            </li>
-                        </ul>
-            </div>
-        </div>
-
-        <div class="col-md-7">
+        <div class="col-md-9">
               <div class="panel panel-default">
-                <div class="panel-heading"><h4 class="text-center">Headline News</h4></div>
-               <div class="panel-body shadow-sm p-3 mb-5 bg-body rounded">
+               <div class="panel-body">
                   <h3>Latih Balita Anda Dalam Merangsang Saraf Motorik</h3>
                     <div class="info-meta">
                         <ul class="list-inline">
@@ -45,7 +52,7 @@
 
                     <div class = "media">
                        <a class = "pull-left" href = "#">
-                          <img class = "media-object " src = "img/latar.jpg" width="100%" height="200px" >
+                          <img class = "media-object " src = "images/education.jpg" width="100%" height="200px" >
                        </a>
                        <div class = "media-body">
                           <p>A simple shell for an h1 to appropriately space out and segment sections of content on a page. It can utilize the h1's default small element, as well as most other components (with additional styles).
@@ -76,7 +83,7 @@
 
                     <div class = "media">
                        <a class = "pull-left" href = "#">
-                          <img class = "media-object" src = "img/latar.jpg" width="300px" height="200px">
+                          <img class = "media-object" src = "images/technology.jpg" width="300px" height="200px">
                        </a>
 
                        <div class = "media-body">
@@ -99,7 +106,7 @@
                <div class="panel-heading"><h4 class="text-center">Latest News</h4></div>
                <div class="panel-body">
                     <div class="recent">
-                        <a href="#"><img class="img-responsive" src="img/lata.jpg" alt="" /></a>
+                        <a href="#"><img class="img-responsive" src="images/sport.jpg" alt="" /></a>
                         <div class="info-meta">
                             <ul class="list-inline">
                                 <li><i class="fa fa-clock-o"></i> Jan 5, 2016 </a></li>
@@ -130,14 +137,13 @@
         </div>
     </div>
 </div>
-
-            <br>
-            <br>
-            <div class="tag">
-                Tag : Informasi, Tekcnologi, Seminar
-            </div>
+<!--FOOTER-->
+    <div class="footer-bottom">
+        <div class="container-fluid text-center">
+            <p>Copyright &copy; 2016,  DTC. Developed by <a href="https://ilmu-detil.blogspot.com/">Pusat Ilmu</a></p>
         </div>
     </div>
-
-
-@endsection
+    <script src='assets/js/jquery.js'></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
