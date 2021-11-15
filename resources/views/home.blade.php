@@ -34,7 +34,7 @@
                   <h3>Latih Balita Anda Dalam Merangsang Saraf Motorik</h3>
                     <div class="info-meta">
                         <ul class="list-inline">
-                            <li><i class="fa fa-clock-o"></i> Jan 5, 2016 </li>
+                            <li><i class="f"></i> Jan 5, 2016 </li>
                             <li><i class="fa fa-eye"></i>21k</li>
                             <li><i class="fa fa-heart-o"></i>372</li>
                             <li><i class="fa fa-user"></i> Posting by Ilmu Detil</li>
@@ -99,7 +99,7 @@
                <div class="panel-heading"><h4 class="text-center">Latest News</h4></div>
                <div class="panel-body">
                     <div class="recent">
-                        <a href="#"><img class="img-responsive" src="img/lata.jpg" alt="" /></a>
+                        <a href="#"><img class="img-responsive" src="img/gmbr.png" width="300px" height="200px alt="" /></a>
                         <div class="info-meta">
                             <ul class="list-inline">
                                 <li><i class="fa fa-clock-o"></i> Jan 5, 2016 </a></li>
@@ -113,7 +113,7 @@
                     </div>
 
                     <div class="recent">
-                        <a href="#"><img class="img-responsive" src="images/technology.jpg" alt="" /></a>
+                        <a href="#"><img class="img-responsive" src="img/gmbr.png" width="300px" height="200px alt="" /></a>
                         <div class="info-meta">
                             <ul class="list-inline">
                                 <li><i class="fa fa-clock-o"></i> Jan 5, 2016</li>
