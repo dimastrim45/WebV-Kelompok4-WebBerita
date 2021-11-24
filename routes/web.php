@@ -32,7 +32,7 @@ Route::get('/education', function () {
 });
 
 Route::get('/techno', function () {
-    return view('techno', [
+    return view('konten', [
         "title" => "Technology"
     ]);
 });

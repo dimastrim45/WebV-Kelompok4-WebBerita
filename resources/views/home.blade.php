@@ -5,9 +5,10 @@
 <div class="container" style="margin-top:40px">
     <div class="row">
         <div class="col-md-2">
-            <div class="panel panel-default">
-               <div class="panel-heading"><h4 class="text-center">Kabar Terkini</h4></div>
-               		<ul>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="text-center">Kabar Terkini</h4></div>
+               		    <ul>
                            <li>
                                <a title="Xbox 360 Slim Belum Bisa Mainkan Game Bajakan" href="#">Xbox 360 Slim Belum Bisa Mainkan Game Ba...</a>
                             </li>
@@ -24,13 +25,13 @@
                                 <a title="Xbox 360 Slim Belum Bisa Mainkan Game Bajakan" href="#">Xbox 360 Slim Belum Bisa Mainkan Game Ba...</a>
                             </li>
                         </ul>
-            </div>
+                </div>
         </div>
 
-        <div class="col-md-7">
+        <div class="col-md-7 border-2">
               <div class="panel panel-default">
                 <div class="panel-heading"><h4 class="text-center">Headline News</h4></div>
-               <div class="panel-body shadow-sm p-3 mb-5 bg-body rounded">
+               <div class="panel-body  p-3 mb-5 bg-body rounded">
                   <h3>Latih Balita Anda Dalam Merangsang Saraf Motorik</h3>
                     <div class="info-meta">
                         <ul class="list-inline">
@@ -61,6 +62,28 @@
                             </a>
                         </p>
                     </div>
+
+                    <div class="media">
+                        <div class="media_image">
+                            <a class="pull-left" href="#">
+                                <img class = "media-object" src = "img/berita1.jpeg" width="300px" height="200px">
+                                <span class="ratiobox ratiobox--4-3 ai_lqd lqd" d-append-class="lqd" style="background-image: url(&quot;https://akcdn.detik.net.id/community/media/visual/2021/11/16/warga-kota-samarinda-dibuat-geger-atas-kabar-seorang-penjual-bakso-keliling-yang-hilang-secara-misterius-dok-istimewa-1_43.jpeg?w=250&amp;q=90&quot;);">
+                                    <img src="" style="display: none;">
+                                </span>
+
+                        </div>
+                        <div class="media_text">
+                            <h3 class="media_title">
+                                <a  href="#">Penjual Bakso Hilang Misterius Bikin Geger Warga Samarinda</a>
+
+                            </h3>
+                            <div class="media__date">
+                                skyNews | <span d-time="1637071537" title="Selasa, 16 Nov 2021 21:05 WIB">29 menit yang lalu</span>
+                            </div>
+                        </div>
+                    </div>
+
+
                     <hr>
                     <h3>Tip dan Trik dalam memilih laptop untuk penyuka game</h3>
                     <div class="info-meta">
