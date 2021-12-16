@@ -57,3 +57,9 @@ Route::get('/about', function () {
         "image" => "profile.jpg"
     ]);
 });
+
+Route::get('/admin_post_add', function(){
+    return view('admin_post_add', [
+        "home" => "admin_post_add"
+    ]);
+});

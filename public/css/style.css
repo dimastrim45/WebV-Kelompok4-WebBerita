@@ -1,3 +1,21 @@
+body {
+    background-color: lightblue;
+}
+
+.userid {
+    margin-top: 50px;
+}
+
+.userid h6 {
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.userid h6 a {
+    margin-right: 20px;
+}
+
 #About {
     background-color: #e2edff;
 }
@@ -7,11 +25,11 @@
     border-top: 6px solid rgb(141, 195, 226);
 }
 
-* {
+/* * {
     padding: 0;
     margin: 0;
     font-family: arial;
-}
+} */
 
 .header {
     width: 100%;
@@ -19,12 +37,8 @@
     background-size: cover;
 }
 
-.container,
-.container-fluid {
-    padding-left: 13px;
-    padding-right: 13px;
-    margin-right: auto;
-    margin-left: auto;
+.container-isi {
+    padding-top: 2rem;
 }
 
 .footer__grid {
@@ -43,13 +57,13 @@
     width: 100%;
 }
 
-.nav {
+/* .nav {
     position: relative;
     list-style: none;
     margin: 0;
     padding: 0;
     font-size: 14px;
-}
+} */
 
 .nav--column .nav__item {
     display: inline-block;
@@ -69,9 +83,138 @@
     max-width: 25%;
 }
 
-.text-center {
-    text-align: center !important;
+.nav-icon img {
+    height: 20px;
+    width: 20px;
 }
 
-.border {
+.logo {
+    width: 300px;
+    height: 100px;
+}
+.isi-situs {
+    background: #edf3f5;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #929292;
+}
+
+.navigasibar {
+    font-size: 12px;
+    font-weight: bold;
+}
+.navigasibar {
+    min-height: 30px;
+    background-color: lightblue;
+}
+
+.navigasibar .nav li.dropdown > .dropdown-toggle .caret {
+    border-top-color: white;
+    border-bottom-color: #777;
+}
+
+.navigasibar .nav > li > a {
+    padding: 10px 7px 5px;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
+
+a.menu:after,
+.dropdown-toggle:after {
+    content: none;
+}
+
+.citizen {
+    width: 103%;
+    background: #fff;
+    border: 1px solid #c2c2c2;
+    height: 496px;
+}
+
+.citizen .judul {
+    background: #f3f3f3;
+    color: #257233;
+    margin: 0;
+    border-bottom: 3px solid #666;
+    padding: 5px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #b8b8b8;
+}
+
+.citizen .content {
+    background: #f1efff;
+    color: #333;
+    margin: 5px;
+    padding: 3px;
+    box-shadow: 0 0 3px #7e7e7e;
+}
+
+.iklan2 img {
+    width: 300px;
+    height: 255px;
+}
+
+.tabview {
+    background: #78042e;
+    padding: 5px;
+    border-radius: 6px;
+    width: 217px;
+}
+
+.nav-mostview {
+    background: #78042e;
+    margin-bottom: 0;
+}
+
+.tabview-content {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.iklan3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.terbaru {
+    width: 500px;
+}
+
+.kriminal {
+    background: #ffff;
+    border: 5px #284a8a solid;
+    border-radius: 8px;
+}
+
+.berita-baru {
+    padding: 6px;
+    color: #757272;
+    margin-top: 0;
+    text-transform: uppercase;
+    border-bottom: 3px solid red;
+}
+
+.berita-baru2 {
+    padding: 4px;
+    color: #173875;
+    border-bottom: 3px red solid;
+    margin-top: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #b6b6b6;
+}
+
+.konten-terbaru {
+    padding: 0 10px 10px 10px;
+    overflow: hidden;
+}
+
+.isi-terbaru {
+    border-bottom: 1px #999 dotted;
+    padding-bottom: 10px;
 }

@@ -1,8 +1,5 @@
 <!-- footer -->
 <link rel="stylesheet" href="css/style.css">
-
-
-
 <footer>
     <div class="footer">
         <div class="container">
