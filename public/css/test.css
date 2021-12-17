@@ -1,0 +1,28 @@
+.pemisah-btnnav {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.recent {
+    padding-top: 20px;
+}
+.info-meta {
+    padding-top: 10px;
+    color: #9999;
+}
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none;
+    color: #9c9c9c;
+}
+.footer-bottom {
+    background-color: #3b5998;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.panel-groove {
+    border-style: groove;
+}

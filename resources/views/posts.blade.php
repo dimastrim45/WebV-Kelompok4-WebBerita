@@ -1,4 +1,4 @@
-@extends('main')
+@extends('layout/main')
 
 @section('container')
     @foreach ($posts as $post)

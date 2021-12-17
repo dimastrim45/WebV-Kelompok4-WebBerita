@@ -24,44 +24,37 @@ use App\Http\Controllers\PostController;
 //routing default ke posts
 Route::get('/', [PostController::class, 'index']);
 
-
-// Route::get('/health', function(){
-//     return view('posts', [
-//         "title" => "Health",
-//         "type" => "health"
-//     ]);
-// });
-
-Route::get('/health', [
-    "title" => "Health",
-    "type" => "health",
-    PostController::class, 'shows'
-]);
-
-Route::get('posts/{post:slug}', [PostController::class, 'show']);
-
-Route::get('/education', function(){
-    return view('posts', [
-        "title" => "Education",
-        "type" => "education"
+Route::get('/health', function () {
+    return view('health', [
+        "title" => "Health"
     ]);
 });
 
-Route::get('/techno', function(){
-    return view('posts', [
-        "title" => "Technology",
-        "type" => "techno"
+Route::get('/education', function () {
+    return view('education', [
+        "title" => "Education"
     ]);
 });
 
-Route::get('/food', function(){
-    return view('posts', [
-        "title" => "Food",
-        "type" => "food"
+Route::get('/techno', function () {
+    return view('konten', [
+        "title" => "Technology"
     ]);
 });
 
-Route::get('/about', function(){
+Route::get('/konten', function () {
+    return view('konten', [
+        "title" => "konten"
+    ]);
+});
+
+Route::get('/food', function () {
+    return view('food', [
+        "title" => "Food"
+    ]);
+});
+
+Route::get('/about', function () {
     return view('about', [
         "title" => "About",
         "name" => "Sam Martin",
@@ -70,3 +63,8 @@ Route::get('/about', function(){
     ]);
 });
 
+Route::get('/admin_post_add', function(){
+    return view('admin_post_add', [
+        "home" => "admin_post_add"
+    ]);
+});
