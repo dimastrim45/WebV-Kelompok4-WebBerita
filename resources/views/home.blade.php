@@ -54,9 +54,9 @@
 
   <!-- navigasi bar -->
   <div class="col-12">
-  <div class="navbar nav-bottom mb-3 mt-2">
+  <div class="navbar nav-bottom mb-2 mt-2">
     <div class="navbar-inner navigasibar">
-        <div class="container">
+        <div class="container" style="width: auto;">
         <ul class="nav" role="navigation">
 
             <li class="dropdown">
@@ -188,7 +188,7 @@
 
 
 {{-- konten isi --}}
-<div class="row">
+<div class="row mb-4">
     <div class="col-3">
         <div class="citizen">
             <h5 class="judul">
@@ -228,50 +228,42 @@
 </div>
 
 
-    <div class="col-6">
+    <div class="col-6 mb-">
         <!-- konten slider-->
-            <ul id="newsslider">
-                <li>
-                    <a href="http://www.mmm.unifi.it/primo-piano/intervista-con-luca-farulli"><img src="img/imagesite/slide/luca-farulli-master-multimedia.jpg" width="82" height="30" alt="Luca Farulli" /></a>
-                    <h3><a href="http://www.mmm.unifi.it/primo-piano/intervista-con-luca-farulli">Luca Farulli interview</a></h3>
-                    <p>Luca Farulli, professor of Aesthetics at the Academy of Fine Arts of Venice, is the owner of the course of aesthetics of digital art and coordinator of the workshop for the Master of Arts and Multimedia <br /><a href="http://www.mmm.unifi.it/primo-piano/intervista-con-luca-farulli"> &raquo; read more</a></p>
-                </li>
-                <li>
-                    <a href="http://www.mmm.unifi.it/interviste/intervista-con-diego-mencarelli"><img src="img/imagesite/slide/diego-mencarelli-master-multimedia.jpg" width="82" height="30" alt="Diego Mencarelli" /></a>
-                    <h3><a href="http://www.mmm.unifi.it/interviste/intervista-con-diego-mencarelli" title="This should be the title text">Diego Mencarelli interview</a></h3>
-                    <p>Diego Mencarelli, new media consultant at Unicoop Tirreno, co-teaches a course on human-machine interface design, in particular the module dedicated to accessibility and web W3C standards <br /><a href="http://www.mmm.unifi.it/interviste/intervista-con-diego-mencarelli">&raquo; read more</a></p>
-                </li>
-                <li>
-                    <a class="title" href="http://www.mmm.unifi.it/interviste/intervista-con-luca-bonacorsi"><img src="img/imagesite/slide/luca-bonacorsi-master-multimedia.jpg" width="82" height="30" alt="Luca Bonacorsi" /></a>
-                    <h3><a href="http://www.mmm.unifi.it/interviste/intervista-con-luca-bonacorsi">Luca Bonacorsi interview</a></h3>
-                    <p>Luca Bonacorsi, consultant and expert training certified Adobe / Macromedia, is professor of Rich Internet Applications II, a course designed to learn of Adobe Flex <br /><a href="http://www.mmm.unifi.it/interviste/intervista-con-luca-bonacorsi">&raquo; read more</a></p>
-                </li>
-                <li>
-                    <a  href="http://www.mmm.unifi.it/interviste/intervista-con-luigi-ciorciolini"><img src="img/imagesite/slide/luigi-ciorciolini-master-multimedia.jpg" width="82" height="30" alt="Luigi Ciorciolini" /></a>
-                    <h3><a href="http://www.mmm.unifi.it/interviste/intervista-con-luigi-ciorciolini">Luigi Ciorciolini interview</a></h3>
-                    <p>Luigi Ciorciolini, film and video maker, since different editions of the course is a professor of communication by images in the period of specialization in video post-production<br /><a href="http://www.mmm.unifi.it/interviste/intervista-con-luigi-ciorciolini">&raquo; read more</a></p>
-                </li>
-                <li>
-                    <a href="http://www.mmm.unifi.it/interviste/intervista-con-luca-rosati"><img src="img/imagesite/slide/luca-rosati-master-multimedia.jpg" width="82" height="30" alt="Luca Rosati" /></a>
-                    <h3><a href="http://www.mmm.unifi.it/interviste/intervista-con-luca-rosati">Luca Rosati interview.</a></h3>
-                    <p>Luca Rosati is one of the leading experts on information architecture in Italy. Since two years is among the organizers of the Italian IA Summit and teaches a course on Information Architecture <br /><a href="http://www.mmm.unifi.it/interviste/intervista-con-luca-rosati">&raquo; read more</a></p>
-                </li>
-                <li>
-                    <a href="http://www.mmm.unifi.it/interviste/intervista-con-filippo-casale"><img src="img/imagesite/slide/filippocasale-master-multimedia.jpg" width="82" height="30" alt="Filippo Casale" /></a>
-                    <h3><a href="http://www.mmm.unifi.it/interviste/intervista-con-filippo-casale">Filippo Casale interview</a></h3>
-                    <p>Filippo Casale is a professor of Maya from the first edition of the Master. Instructor certified for Autodesk Maya software, Filippo is one of the most successful 3D artist on the italian scene <br /><a href="http://www.mmm.unifi.it/interviste/intervista-con-filippo-casale">&raquo; read more</a></p>
-                </li>
-                <li>
-                    <a href="http://www.mmm.unifi.it/news/intervista-con-tiziano-fruet"><img src="img/imagesite/slide/tiziano-fruet-master-multimedia1.jpg" width="82" height="30" alt="Tiziano Fruet" /></a>
-                    <h3><a href="http://www.mmm.unifi.it/news/intervista-con-tiziano-fruet">Tiziano Fruet interview</a></h3>
-                    <p>Tiziano Fruet is the new teacher of the course of Graphic Design II at the Master. Tiziano is Adobe Italy Guru  since 2004, Adobe Certified Expert and Adobe Certified Instructor in Photoshop<br /><a href="http://www.mmm.unifi.it/news/intervista-con-tiziano-fruet">&raquo; read more</a></p>
-                </li>
-                <li>
-                    <a href="http://www.mmm.unifi.it/interviste/intervista-con-sante-j-achille"><img src="img/imagesite/slide/sante-j-achille-master-multimedia-firenze.jpg" width="82" height="30" alt="Sante J. Achille" /></a>
-                    <h3><a href="http://www.mmm.unifi.it/interviste/intervista-con-sante-j-achille">Sante J. Achille interview</a></h3>
-                    <p>Sante J. Achilles is two years teaches a course on Search Engine Optimization. Sante is a professional with national and international experience in consulting for the search engines and web marketing <br /><a href="http://www.mmm.unifi.it/interviste/intervista-con-sante-j-achille">&raquo; read more</a></p>
-                </li>
-        </ul>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/imagesite/slide/luca-farulli-master-multimedia.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block mb-2">
+                </div>
+                <h3><a href="http://www.mmm.unifi.it/primo-piano/intervista-con-luca-farulli">Luca Farulli interview</a></h3>
+                                <p>Luca Farulli, professor of Aesthetics at the Academy of Fine Arts of Venice, is the owner of the course of aesthetics of digital art and coordinator of the workshop for the Master of Arts and Multimedia <br /><a href="http://www.mmm.unifi.it/primo-piano/intervista-con-luca-farulli"> &raquo; read more</a></p>
+              </div>
+              <div class="carousel-item">
+                <img src="img/imagesite/slide/diego-mencarelli-master-multimedia.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block mb-2">
+                </div>
+                <h3><a href="http://www.mmm.unifi.it/interviste/intervista-con-diego-mencarelli" title="This should be the title text">Diego Mencarelli interview</a></h3>
+                                <p>Diego Mencarelli, new media consultant at Unicoop Tirreno, co-teaches a course on human-machine interface design, in particular the module dedicated to accessibility and web W3C standards <br /><a href="http://www.mmm.unifi.it/interviste/intervista-con-diego-mencarelli">&raquo; read more</a></p>
+              </div>
+              <div class="carousel-item ">
+                <img src="img/imagesite/slide/luca-bonacorsi-master-multimedia.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block mb-2">
+                </div>
+                <h3><a href="http://www.mmm.unifi.it/interviste/intervista-con-luca-bonacorsi">Luca Bonacorsi interview</a></h3>
+                                <p>Luca Bonacorsi, consultant and expert training certified Adobe / Macromedia, is professor of Rich Internet Applications II, a course designed to learn of Adobe Flex <br /><a href="http://www.mmm.unifi.it/interviste/intervista-con-luca-bonacorsi">&raquo; read more</a></p>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         <!-- konten slider -->
         </div>
         <!-- konten iklan2 -->
@@ -286,7 +278,6 @@
       <div class="col-3">
           <!-- mostview -->
           <div class="tabview">
-            <div class="tabbable" style="background:#fff;">
             <ul class="nav nav-tabs nav-mostview" id="myTab">
                 <li class="nav-item">
                     <a class="nav-link active" href="#tab1" aria-current="tab">Most Popular</a>
@@ -295,6 +286,7 @@
                     <a href="#tab2" data-toggle="tab">Most Commented</a>
                 </li>
             </ul>
+
             <div class="tab-content tabview-content">
                 <div class="tab-pane active" id="tab1">
                 <div class="judul-artikel-ticker">
@@ -351,7 +343,7 @@
             </div>
             </div>
           </div>
-      </div>
+
       {{-- terbaru --}}
       <div class="col-5">
         <div class="terbaru">
@@ -386,13 +378,7 @@
                     <p>Memo – Indonesia dikenal sebagai salah satu destinasi wisata favorit turis lokal maupun mancanegara. Termasuk juga desa wisatanya, yang memiliki keunggulan berupa keindahan alam maupun atraksi wisata di dalamnya.</p>
                     <a href="#" class="lengkap">Selengkapnya &raquo;</a>
                 </div>
-                <div class="isi-terbaru">
-                    <span class="date">Sabtu, 17/12/2021 14:41 WIB</span>
-                    <h4 class="judul-terbaru"><a href="">Ini 5 Desa Wisata Indonesia yang Terkenal di Kancah Internasional</a></h4>
-                    <img class="img-polaroid" src="img/imagesite/post/p10.png" />
-                    <p>Memo – Indonesia dikenal sebagai salah satu destinasi wisata favorit turis lokal maupun mancanegara. Termasuk juga desa wisatanya, yang memiliki keunggulan berupa keindahan alam maupun atraksi wisata di dalamnya.</p>
-                    <a href="#" class="lengkap">Selengkapnya &raquo;</a>
-                </div>
+
                     <a href="#" class="nextt">Berita Lainnya &raquo;</a>
 
             </div>
@@ -426,6 +412,19 @@
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
 </script>
+<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/jquery.accessible-news-slider.js"></script>
+<script type="text/javascript" src="js/jquery.retina.js" ></script>
+<script src="js/weather/jquery.zweatherfeed.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+
+<script src="js/jquery.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/bootstrap-dropdown.js"></script>
+        <script src="js/bootstrap-collapse.js"></script>
+        <script src="js/ckeditor/ckeditor.js"></script>
+
+
 @include('partials/footer')
 </body>
 

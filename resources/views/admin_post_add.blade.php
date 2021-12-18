@@ -17,9 +17,9 @@
 										<label>Judul</label>
 										<input type="text" placeholder="Ketikkan Judul.." class="input-xxlarge" />
 										<label>Permalink</label>
-										<input type="text" placeholder="isi permalink.." class="span5" />
+										<input type="text" placeholder="isi permalink.." class="col-5 mb-4" />
 										<label>Foto</label>
-										<input type="file" class="span5" placeholder="Pilih gambar" />
+										<input type="file" class="col-5" placeholder="Pilih gambar" />
 										<hr />
 										<textarea class="ckeditor" name="editor-post"></textarea>
 
@@ -63,8 +63,9 @@
 											<input type="checkbox" name="kategori" value="1" />  Lain-Lain<br />
 											</div>
 									</div>
-								</div>
-							</form>
+                                </div>
+								</form>
+
 							</div>
 
 
