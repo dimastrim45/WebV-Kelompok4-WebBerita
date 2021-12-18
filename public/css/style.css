@@ -111,7 +111,6 @@ a {
     min-height: 40px;
     background-color: lightblue;
     width: 100%;
-    padding: auto;
 }
 
 .navigasibar .nav li.dropdown > .dropdown-toggle .caret {
@@ -120,7 +119,7 @@ a {
 }
 
 .navigasibar .nav > li > a {
-    padding: 10px 7px 5px;
+    padding: 10px 12px 5px;
 }
 
 ul.nav li.dropdown:hover ul.dropdown-menu {

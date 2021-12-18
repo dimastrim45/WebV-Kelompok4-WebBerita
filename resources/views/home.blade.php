@@ -56,8 +56,8 @@
   <div class="col-12">
   <div class="navbar nav-bottom mb-2 mt-2">
     <div class="navbar-inner navigasibar">
-        <div class="container" style="width: auto;">
-        <ul class="nav" role="navigation">
+        <div class="container mt-2">
+        <ul class="nav justify-content-center" role="navigation">
 
             <li class="dropdown">
             <a href="#" id="drop2" role="button" class="dropdown-toggle">Kriminal<b class="caret"></b></a>
@@ -347,7 +347,7 @@
       {{-- terbaru --}}
       <div class="col-5">
         <div class="terbaru">
-            <h5 class="berita-baru">Berita Terbaru<a href="#" class="pull-right">Index</a></h5>
+            <h5 class="berita-baru">Berita Terbaru<a href="#" class="pull-right"></a></h5>
             <div class="konten-terbaru">
                 <div class="isi-terbaru">
                     <span class="date">Sabtu, 17/12/2021 14:41 WIB</span>
