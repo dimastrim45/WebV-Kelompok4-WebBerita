@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Post;
+use App\Http\Controllers\PostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +15,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+// Route::get('/', function () {
+//     return view('posts', [
+//         "title" => "Home"
+//     ]);
+// });
+
+//routing default ke posts
+//Route::get('/', [PostController::class, 'index']);
+Route::get('/', function(){
     return view('home', [
-        "title" => "Home"
+        "title" => 'Home'
     ]);
 });
 
