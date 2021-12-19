@@ -230,6 +230,12 @@
 
     <div class="col-6 mb-">
         <!-- konten slider-->
+        <div class="headline">
+            <p>
+                <strong>BERITA PILIHAN:</strong> Dari redaksi untuk Anda
+            </p>
+        </div>
+        <div class="slide">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 
             <div class="carousel-inner">
@@ -264,6 +270,7 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+        </div>
         <!-- konten slider -->
         </div>
         <!-- konten iklan2 -->
@@ -406,8 +413,18 @@
                 <a href="#" class="nextt">Berita Lainnya &raquo;</a>
             </div>
             </div>
+
+                <div class="galeria">
+                    <h5 class="judul">Galeri Video <span class="icon-film"></span></h5>
+                    <div class="content">
+                        <iframe width="200" height="150" src="http://www.youtube.com/embed/ipsJ4nEbXbU" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
+                    <center><a href="">Lihat Semua</a></center>
+                </div>
       </div>
   </div>
+
+
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">

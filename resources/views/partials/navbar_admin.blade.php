@@ -1,6 +1,12 @@
-<div class="navbar navbar-fixed-top navbar-inverse">
-    <div class="navbar-inner">
-        <a class="brand" href="#" style="margin-left:10px;">Dashboard Admin</a>
+<link rel="stylesheet" href="css/style.css">
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Dashboard Admin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+
         <ul class="nav">
         <li class="active"><a href="#"><span class="icon-globe icon-white"></span> Lihat Situs &raquo;</a></li>
         <li><a href="#"><span class="icon-bullhorn icon-white"></span> Bantuan</a></li>
@@ -21,7 +27,7 @@
                 </li>
         </ul>
 
-    <ul class="nav pull-right">
+    <ul class="nav justify-content-end">
                 <li><a href="#">Link</a></li>
                 <li class="divider-vertical"></li>
                 <li class="dropdown">
@@ -34,6 +40,6 @@
                     </ul>
                 </li>
                 </ul>
-
+      </div>
     </div>
-</div>
+</nav>
