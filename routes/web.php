@@ -63,3 +63,9 @@ Route::get('/admin_post_add', function(){
         "home" => "admin_post_add"
     ]);
 });
+
+Route::get('/admin_post_view', function(){
+    return view('admin_post_view', [
+        "home" => "admin_post_view"
+    ]);
+});

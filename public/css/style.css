@@ -112,8 +112,6 @@ a {
 .navigasibar {
     font-size: 12px;
     font-weight: bold;
-}
-.navigasibar {
     min-height: 40px;
     background-color: lightblue;
     width: 100%;
