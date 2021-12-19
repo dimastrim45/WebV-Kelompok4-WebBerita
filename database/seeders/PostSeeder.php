@@ -17,6 +17,7 @@ class PostSeeder extends Seeder
             [
                 'title' => 'Judul Pertama',
                 'category_id' => 1,
+                'user_id' => 1,
                 'slug' => 'judul_pertama',
                 'author' => 'Dimas',
                 'excerpt' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ratione?',
@@ -25,6 +26,7 @@ class PostSeeder extends Seeder
             [
                 'title' => 'Judul Kedua',
                 'category_id' => 3,
+                'user_id' => 1,
                 'slug' => 'judul_kedua',
                 'author' => 'Dimas',
                 'excerpt' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ratione?',
@@ -33,6 +35,7 @@ class PostSeeder extends Seeder
             [
                 'title' => 'Judul Ketiga',
                 'category_id' => 1,
+                'user_id' => 2,
                 'slug' => 'judul_ketiga',
                 'author' => 'Dimas',
                 'excerpt' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ratione?',
@@ -41,6 +44,7 @@ class PostSeeder extends Seeder
             [
                 'title' => 'Judul Keempat',
                 'category_id' => 2,
+                'user_id' => 2,
                 'slug' => 'judul_keempat',
                 'author' => 'Dimas',
                 'excerpt' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ratione?',
