@@ -87,9 +87,15 @@ a {
     max-width: 25%;
 }
 
+.sosial {
+    margin: auto;
+    float: right;
+}
+
 .nav-icon img {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
+    padding: 2px;
 }
 
 .logo {
@@ -158,11 +164,14 @@ a.menu:after,
 
 .carousel {
     position: relative;
-    border: 5px solid #ddd;
-    background: #fff;
     padding: 5px;
 }
 
+.slide {
+    background: #dee2e6;
+    border: 1px solid #c2c2c2;
+    height: 412px;
+}
 .iklan2 img {
     width: 300px;
     height: 255px;
@@ -191,6 +200,10 @@ a.menu:after,
     margin-bottom: 10px;
 }
 
+.judul-artikel-ticker {
+    border-bottom: 1px #999 dotted;
+}
+
 .terbaru {
     width: 450px;
 }
@@ -210,6 +223,22 @@ img.img-polaroid {
     border-radius: 8px;
 }
 
+.galeria {
+    background: linear-gradient(
+        to bottom,
+        rgba(242, 245, 246, 1) 0%,
+        rgba(227, 234, 237, 1) 37%,
+        rgba(200, 215, 220, 1) 100%
+    );
+    border: 1px solid #c5c5c5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.galeria .content {
+    padding: 5px;
+    align-content: center;
+}
 .berita-baru {
     padding: 6px;
     color: #757272;

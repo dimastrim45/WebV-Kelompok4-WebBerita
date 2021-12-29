@@ -7,7 +7,7 @@
       </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="container">
+            <div class="sosial">
                         <ul class="nav justify-content-center">
                             <span style=" font-size: 12px; font-weight: bold;">Find Us on : </span>
                             <li class="nav-icon">
