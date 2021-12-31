@@ -81,3 +81,10 @@ Route::get('/admin_post_view', function(){
         "home" => "admin_post_view"
     ]);
 });
+
+
+Route::get('/login', function(){
+    return view('login', [
+        "home" => "login"
+    ]);
+});
