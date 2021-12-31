@@ -87,17 +87,6 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#" id="drop2" role="button" class="dropdown-toggle">Berita Regional <b
-                                            class="caret"></b></a>
-                                    <ul class="dropdown-menu menudrop" role="menu" aria-labelledby="drop2">
-                                        <li><a tabindex="-1" href="#">Surabaya</a></li>
-                                        <li><a tabindex="-1" href="#">Nasional</a></li>
-                                        <li><a tabindex="-1" href="#">Internasional</a></li>
-
-
-                                    </ul>
-                                </li>
-                                <li class="dropdown">
                                     <a href="#" id="drop2" role="button" class="dropdown-toggle">Sains Teknologi<b
                                             class="caret"></b></a>
                                     <ul class="dropdown-menu menudrop" role="menu" aria-labelledby="drop2">
@@ -137,18 +126,6 @@
                                         <li><a tabindex="-1" href="#">Perencanaan Keuangan</a></li>
                                     </ul>
                                 </li>
-
-                                <li class="dropdown">
-                                    <a href="#" id="drop2" role="button" class="dropdown-toggle">Liputan<b
-                                            class="caret"></b></a>
-                                    <ul class="dropdown-menu menudrop" role="menu" aria-labelledby="drop2">
-                                        <li><a tabindex="-1" href="#">Komunitas</a></li>
-                                        <li><a tabindex="-1" href="#">Sosok Inspirasi</a></li>
-                                        <li><a tabindex="-1" href="#">Galeri Video</a></li>
-                                        <li><a tabindex="-1" href="#">Galeri Foto</a></li>
-                                    </ul>
-                                </li>
-
                                 <li class="dropdown">
                                     <a href="#" id="drop2" role="button" class="dropdown-toggle">Olahraga<b
                                             class="caret"></b></a>
@@ -160,38 +137,7 @@
                                         <li><a tabindex="-1" href="#">Trik dan Tips</a></li>
                                     </ul>
                                 </li>
-
-                                <li class="dropdown">
-                                    <a href="#" id="drop2" role="button" class="dropdown-toggle">Ragam<b
-                                            class="caret"></b></a>
-                                    <ul class="dropdown-menu menudrop" role="menu" aria-labelledby="drop2">
-                                        <li><a tabindex="-1" href="#">Lifestyle</a></li>
-                                        <li><a tabindex="-1" href="#">Rubrik Perempuan</a></li>
-                                        <li><a tabindex="-1" href="#">Misteri</a></li>
-                                        <li><a tabindex="-1" href="#">Tahukah Anda?</a></li>
-                                        <li><a tabindex="-1" href="#">Kopi Ketan</a></li>
-                                        <li><a tabindex="-1" href="#">Noto Ati</a></li>
-                                        <li><a tabindex="-1" href="#">Tausyiah</a></li>
-
-                                    </ul>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#" id="drop2" role="button" class="dropdown-toggle">Informasi<b
-                                            class="caret"></b></a>
-                                    <ul class="dropdown-menu menudrop" role="menu" aria-labelledby="drop2">
-                                        <li><a tabindex="-1" href="#">Peta Surabaya</a></li>
-                                        <li><a tabindex="-1" href="#">Jadwal Kereta dan Pesawat</a></li>
-                                        <li><a tabindex="-1" href="#">Info Hotel</a></li>
-                                        <li><a tabindex="-1" href="#">Rekreasi Surabaya</a></li>
-                                        <li><a tabindex="-1" href="#">Sejarah Surabaya</a></li>
-                                        <li><a tabindex="-1" href="#">Kuliner Surabaya</a></li>
-
-                                    </ul>
-                                </li>
-
-
                             </ul>
-
                         </div>
                     </div>
                 </div>
@@ -389,47 +335,17 @@
                     <div class="terbaru">
                         <h5 class="berita-baru">Berita Terbaru<a href="#"></a></h5>
                         <div class="konten-terbaru">
-                            <div class="isi-terbaru">
-                                <span class="date">Sabtu, 17/12/2021 14:41 WIB</span>
-                                <h4 class="judul-terbaru"><a href="">Ini 5 Desa Wisata Indonesia yang Terkenal di
-                                        Kancah Internasional</a></h4>
-                                <img class="img-polaroid" src="img/imagesite/post/p10.png" />
-                                <p>Memo – Indonesia dikenal sebagai salah satu destinasi wisata favorit turis lokal
-                                    maupun mancanegara. Termasuk juga desa wisatanya, yang memiliki keunggulan berupa
-                                    keindahan alam maupun atraksi wisata di dalamnya.</p>
-                                <a href="#" class="lengkap">Selengkapnya &raquo;</a>
-                            </div>
-                            <div class="isi-terbaru">
-                                <span class="date">Sabtu, 17/12/2021 14:41 WIB</span>
-                                <h4 class="judul-terbaru"><a href="">Ini 5 Desa Wisata Indonesia yang Terkenal di
-                                        Kancah Internasional</a></h4>
-                                <img class="img-polaroid" src="img/imagesite/post/p10.png" />
-                                <p>Memo – Indonesia dikenal sebagai salah satu destinasi wisata favorit turis lokal
-                                    maupun mancanegara. Termasuk juga desa wisatanya, yang memiliki keunggulan berupa
-                                    keindahan alam maupun atraksi wisata di dalamnya.</p>
-                                <a href="#" class="lengkap">Selengkapnya &raquo;</a>
-                            </div>
-                            <div class="isi-terbaru">
-                                <span class="date">Sabtu, 17/12/2021 14:41 WIB</span>
-                                <h4 class="judul-terbaru"><a href="">Ini 5 Desa Wisata Indonesia yang Terkenal di
-                                        Kancah Internasional</a></h4>
-                                <img class="img-polaroid" src="img/imagesite/post/p10.png" />
-                                <p>Memo – Indonesia dikenal sebagai salah satu destinasi wisata favorit turis lokal
-                                    maupun mancanegara. Termasuk juga desa wisatanya, yang memiliki keunggulan berupa
-                                    keindahan alam maupun atraksi wisata di dalamnya.</p>
-                                <a href="#" class="lengkap">Selengkapnya &raquo;</a>
-                            </div>
-
-                            <div class="isi-terbaru">
-                                <span class="date">Sabtu, 17/12/2021 14:41 WIB</span>
-                                <h4 class="judul-terbaru"><a href="">Ini 5 Desa Wisata Indonesia yang Terkenal di
-                                        Kancah Internasional</a></h4>
-                                <img class="img-polaroid" src="img/imagesite/post/p10.png" />
-                                <p>Memo – Indonesia dikenal sebagai salah satu destinasi wisata favorit turis lokal
-                                    maupun mancanegara. Termasuk juga desa wisatanya, yang memiliki keunggulan berupa
-                                    keindahan alam maupun atraksi wisata di dalamnya.</p>
-                                <a href="#" class="lengkap">Selengkapnya &raquo;</a>
-                            </div>
+                            @foreach ($posts as $post)
+                                <!-- foreach untuk melooping isi dari array didalam $posts sebagai single $post -->
+                                <div class="isi-terbaru">
+                                    <span class="date">Sabtu, 17/12/2021 14:41 WIB</span>
+                                    <h4 class="judul-terbaru"><a
+                                            href="/posts/{{ $post->slug }}">{{ $post->title }}</a></h4>
+                                    <img class="img-polaroid" src="img/imagesite/post/p10.png" />
+                                    <p>{{ $post->excerpt }}</p>
+                                    <a href="#" class="lengkap">Selengkapnya &raquo;</a>
+                                </div>
+                            @endforeach
 
                             <a href="#" class="nextt">Berita Lainnya &raquo;</a>
 

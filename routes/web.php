@@ -23,11 +23,13 @@ use App\Http\Controllers\PostController;
 
 //routing default ke posts
 //Route::get('/', [PostController::class, 'index']);
-Route::get('/', function(){
-    return view('home', [
-        "title" => 'Home'
-    ]);
-});
+Route::get('/', [PostController::class, 'index']
+// function(){
+//     return view('home', [
+//         "title" => 'Home'
+//     ]);
+// }
+);
 
 Route::get('/health', function () {
     return view('health', [
