@@ -193,23 +193,23 @@
             </h5>
             <div class="content">
                 <h6><a href="">Kriminal di Sekitar Wilayah Kampus</a></h6>
-                <p>by Andi - 19 Oktober 2012</p>
+                <p>by Andi - 19 Oktober 2019</p>
             </div>
             <div class="content">
                 <h6><a href="">Harga BBM Harap di Turunkan</a></h6>
-                <p>by Alif - 19 Oktober 2012</p>
+                <p>by Alif - 19 Oktober 2019</p>
             </div>
             <div class="content">
                 <h6><a href="">Kabar Sahabat dari Negeri Jiran</a></h6>
-                <p>by Mustafa - 19 Oktober 2012</p>
+                <p>by Mustafa - 19 Oktober 2019</p>
             </div>
             <div class="content">
                 <h6><a href="">Cara Berhemat ala mahasiswa</a></h6>
-                <p>by Saipul - 19 Oktober 2012</p>
+                <p>by Saipul - 19 Oktober 2019</p>
             </div>
             <div class="content">
                 <h6><a href="">Kenakalan Remaja Hari ini</a></h6>
-                <p>by Putri - 19 Oktober 2012</p>
+                <p>by Putri - 19 Oktober 2019</p>
             </div>
             <div class="foot">
                 <center>
@@ -294,53 +294,53 @@
             <div class="tab-content tabview-content">
                 <div class="tab-pane active" id="tab1">
                 <div class="judul-artikel-ticker">
-                <small>Rabu, 17 Agustus 2012 - 07:00</small>
+                <small>Rabu, 17 Agustus 2018 - 07:00</small>
                 <h6><a href="">Banyak Tawaran Event Pra Musim</a></h6>
                 </div>
                 <div class="judul-artikel-ticker">
-                <small>Rabu, 17 Agustus 2012 - 07:00</small>
+                <small>Rabu, 17 Agustus 2018 - 07:00</small>
                 <h6><a href="">Kedatangan Greg-Victor Tertunda</a></h6>
                 </div>
                 <div class="judul-artikel-ticker">
-                <small>Rabu, 17 Agustus 2012 - 07:00</small>
+                <small>Rabu, 17 Agustus 2018 - 07:00</small>
                 <h6><a href="">Manajemen Tunggu Slave</a></h6>
                 </div>
                 <div class="judul-artikel-ticker">
-                <small>Rabu, 17 Agustus 2012 - 07:00</small>
+                <small>Rabu, 17 Agustus 2018 - 07:00</small>
                 <h6><a href="">Masih Samar-Samar</a></h6>
                 </div>
                 <div class="judul-artikel-ticker">
-                <small>Rabu, 17 Agustus 2012 - 07:00</small>
+                <small>Rabu, 17 Agustus 2018 - 07:00</small>
                 <h6><a href="">Penuhi Janji, Suhadi Diperiksa</a></h6>
                 </div>
                 <div class="judul-artikel-ticker">
-                <small>Rabu, 17 Agustus 2012 - 07:00</small>
+                <small>Rabu, 17 Agustus 2018 - 07:00</small>
                 <h6><a href="">Petani Ancam Laporkan BPN ke KPK</a></h6>
                 </div>
                 </div>
                 <div class="tab-pane" id="tab2">
                     <div class="judul-artikel-ticker">
-                <small>Rabu, 17 Agustus 2012 - 07:00</small>
+                <small>Rabu, 17 Agustus 2018 - 07:00</small>
                 <h6><a href="">Montir Lawang Hisap SS</a></h6>
                 </div>
                 <div class="judul-artikel-ticker">
-                <small>Rabu, 17 Agustus 2012 - 07:00</small>
+                <small>Rabu, 17 Agustus 2018 - 07:00</small>
                 <h6><a href="">Curanmor Obok-obok Kendalsari</a></h6>
                 </div>
                 <div class="judul-artikel-ticker">
-                <small>Rabu, 17 Agustus 2012 - 07:00</small>
+                <small>Rabu, 17 Agustus 2018 - 07:00</small>
                 <h6><a href="">Sopir Rental Mobil Dibius</a></h6>
                 </div>
                 <div class="judul-artikel-ticker">
-                <small>Rabu, 17 Agustus 2012 - 07:00</small>
+                <small>Rabu, 17 Agustus 2018 - 07:00</small>
                 <h6><a href="">Keyko ‘Ratu Germo’ Ngotot Hanya Mucikari Biasa Bantah Anak Buahnya Mencapai 1600 Perempuan</a></h6>
                 </div>
                 <div class="judul-artikel-ticker">
-                <small>Rabu, 17 Agustus 2012 - 07:00</small>
+                <small>Rabu, 17 Agustus 2018 - 07:00</small>
                 <h6><a href="">Penuhi Janji, Suhadi Diperiksa</a></h6>
                 </div>
                 <div class="judul-artikel-ticker">
-                <small>Rabu, 17 Agustus 2012 - 07:00</small>
+                <small>Rabu, 17 Agustus 2018 - 07:00</small>
                 <h6><a href="">Panwaslu Tancap Gas</a></h6>
                 </div>
                 </div>
@@ -351,7 +351,7 @@
       {{-- terbaru --}}
       <div class="col-5">
         <div class="terbaru">
-            <h5 class="berita-baru">Berita Terbaru<a href="#" class="pull-right"></a></h5>
+            <h5 class="berita-baru">Berita Terbaru<a href="#"></a></h5>
             <div class="konten-terbaru">
                 <div class="isi-terbaru">
                     <span class="date">Sabtu, 17/12/2021 14:41 WIB</span>
