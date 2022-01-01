@@ -76,8 +76,19 @@ Route::get('/admin_post_add', function(){
     ]);
 });
 
-Route::get('/admin_post_view', function(){
-    return view('admin_post_view', [
-        "home" => "admin_post_view"
+
+
+// Route::get('/admin_post_view', function(){
+//     return view('admin_post_view', [
+//         "home" => "admin_post_view"
+//     ]);
+// });
+Route::get('/admin_post_view', [PostController::class, 'indexAdmin']
+);
+
+
+Route::get('/login', function(){
+    return view('login', [
+        "home" => "login"
     ]);
 });
