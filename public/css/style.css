@@ -371,7 +371,7 @@ section {
 body {
    margin: 0;
    padding: 0;
-   background: url(/img/tw.jpg) ;
+   /*background: url(/img/tw.jpg) ;*/
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;

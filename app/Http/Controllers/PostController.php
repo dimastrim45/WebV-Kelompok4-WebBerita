@@ -15,8 +15,17 @@ class PostController extends Controller
     public function index()
     {
         //berfungsi me return semua posts yang ada
-        return view('home', [
+        return view('admin_post_view', [
             "title" => "Home",
+            "posts" => Post::all()
+        ]);
+    }
+
+    public function indexAdmin()
+    {
+        //berfungsi me return semua posts yang ada
+        return view('admin_post_view', [
+            "title" => "Admin Post View",
             "posts" => Post::all()
         ]);
     }
