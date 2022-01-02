@@ -1,15 +1,18 @@
-@extends("layout/main_admin")
-@section('container')
+@extends('dashboard.layouts.main')
 
-    <div class="container-fluid contenadmin">
-        <div class="row-fluid d-flex justify-content-center">
-            <div class="col-3">
-                {{-- @include('partials/tab_admin') --}}
-                <div class="col-9">
+@section('container')
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Welcome My Post</h1>
+        {{-- bisa panggil nama user admin = {{ auth()->user()->name }} --}}
+        <div class="btn-toolbar mb-2 mb-md-0">
+        </div>
+      </div>
+
+      <div class="col-12">
                     <div class="konten">
-                        <h4>Daftar <a href=""><span class="label label-important">Postingn</span></a></h4>
+                        <h4>Daftar Postingan</a></h4>
                         <hr />
-                        <div class="row-fluid">
+                        <div class="row">
                             <div class="col-12">
                                 <a href="">All (13)</a> | <a href="">Published (14)</a>
                             </div>
@@ -97,8 +100,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
         </div>
 
         <footer align="center">

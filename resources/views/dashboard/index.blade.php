@@ -21,12 +21,17 @@
                         <input type="text" placeholder="Ketikkan Judul.." class="input mb-4" />
                         <label>Excerpt</label>
                         <input type="text" placeholder="isi excerpt.." class="input mb-4" />
-                        <label>Foto / Gambar</label>
-                        <input type="file" class="col-5 mb-4" placeholder="Pilih gambar" />
+                        <label>Slug</label>
+                        <input type="text" placeholder="isi slug.." class="input mb-4" />
+                        {{-- <label>Foto / Gambar</label>
+                        <input type="file" class="col-5 mb-4" placeholder="Pilih gambar" /> --}}
                         <hr />
                         <label>Isi Berita</label>
                         <textarea class="ckeditor" name="editor-post"></textarea>
-
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-3">
+                            <button class="btn btn-success me-md-2" type="button">Simpan</button>
+                             <button class="btn btn-danger" type="button">Batal</button>
+                        </div>
                     </div>
                   </form>
               </div>
