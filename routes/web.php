@@ -1,8 +1,10 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Models\Post;
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\AdminController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -92,3 +94,5 @@ Route::get('/login', function(){
         "home" => "login"
     ]);
 });
+
+Route::get('/admin_post_view/hapus/{id}', [AdminController::class, 'delete']);

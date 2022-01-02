@@ -87,7 +87,8 @@
                                                 <td colspan="2">
                                                     <p><a href=""><span class="label label-info">View</span></a></p>
                                                     <p><a href=""><span class="label label-warning">Edit</span></a></p>
-                                                    <p><a href=""><span class="label label-important">Hapus</span></a></p>
+                                                    <p><a href="/admin_post_view/hapus/{{ $post->id }}"><span
+                                                                class="label label-important">Hapus</span></a></p>
                                                 </td>
                                             </tr>
                                         @endforeach
