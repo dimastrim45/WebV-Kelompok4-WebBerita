@@ -62,8 +62,8 @@
 
 
                                 <li class="dropdown">
-                                    <a href="#" id="drop2" role="button" class="dropdown-toggle">Kriminal<b
-                                            class="caret"></b></a>
+                                    <a href="/category/kriminal" id="drop2" role="button"
+                                        class="dropdown-toggle">Kriminal<b class="caret"></b></a>
                                     <ul class="dropdown-menu menudrop" role="menu" aria-labelledby="drop2">
                                         <li><a tabindex="-1" href="#">Kecelakaan</a></li>
                                         <li><a tabindex="-1" href="#">Pembunuhan</a></li>
@@ -76,8 +76,8 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#" id="drop2" role="button" class="dropdown-toggle">Politik dan Hukum<b
-                                            class="caret"></b></a>
+                                    <a href="/category/politik" id="drop2" role="button" class="dropdown-toggle">Politik
+                                        dan Hukum<b class="caret"></b></a>
                                     <ul class="dropdown-menu menudrop" role="menu" aria-labelledby="drop2">
                                         <li><a tabindex="-1" href="#">Kasus Hukum</a></li>
                                         <li><a tabindex="-1" href="#">Partai Politik</a></li>
@@ -88,8 +88,8 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#" id="drop2" role="button" class="dropdown-toggle">Sains Teknologi<b
-                                            class="caret"></b></a>
+                                    <a href="/category/teknologi" id="drop2" role="button" class="dropdown-toggle">Sains
+                                        Teknologi<b class="caret"></b></a>
                                     <ul class="dropdown-menu menudrop" role="menu" aria-labelledby="drop2">
                                         <li><a tabindex="-1" href="#">Software</a></li>
                                         <li><a tabindex="-1" href="#">Hardware</a></li>
@@ -104,8 +104,8 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#" id="drop2" role="button" class="dropdown-toggle">Infotainment <b
-                                            class="caret"></b></a>
+                                    <a href="/category/infotainment" id="drop2" role="button"
+                                        class="dropdown-toggle">Infotainment <b class="caret"></b></a>
                                     <ul class="dropdown-menu menudrop" role="menu" aria-labelledby="drop2">
                                         <li><a tabindex="-1" href="#">Selebritis</a></li>
                                         <li><a tabindex="-1" href="#">Film Terbaru</a></li>
@@ -116,8 +116,8 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#" id="drop2" role="button" class="dropdown-toggle">Ekonomi<b
-                                            class="caret"></b></a>
+                                    <a href="/category/ekonomi" id="drop2" role="button"
+                                        class="dropdown-toggle">Ekonomi<b class="caret"></b></a>
                                     <ul class="dropdown-menu menudrop" role="menu" aria-labelledby="drop2">
                                         <li><a tabindex="-1" href="#">Info Saham</a></li>
                                         <li><a tabindex="-1" href="#">Bisnis</a></li>
@@ -128,8 +128,8 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#" id="drop2" role="button" class="dropdown-toggle">Olahraga<b
-                                            class="caret"></b></a>
+                                    <a href="/category/olahraga" id="drop2" role="button"
+                                        class="dropdown-toggle">Olahraga<b class="caret"></b></a>
                                     <ul class="dropdown-menu menudrop" role="menu" aria-labelledby="drop2">
                                         <li><a tabindex="-1" href="#">Persebaya</a></li>
                                         <li><a tabindex="-1" href="#">Football Indonesia</a></li>

@@ -1,8 +1,10 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Models\Post;
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\AdminController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -75,8 +77,21 @@ Route::get('/index', function(){
     ]);
 });
 
-Route::get('/admin_post_view', function(){
-    return view('admin_post_view', [
-        "home" => "admin_post_view"
+
+
+// Route::get('/admin_post_view', function(){
+//     return view('admin_post_view', [
+//         "home" => "admin_post_view"
+//     ]);
+// });
+Route::get('/admin_post_view', [PostController::class, 'indexAdmin']
+);
+
+
+Route::get('/login', function(){
+    return view('login', [
+        "home" => "login"
     ]);
 });
+
+Route::get('/admin_post_view/hapus/{id}', [AdminController::class, 'delete']);
