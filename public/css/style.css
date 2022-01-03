@@ -487,21 +487,3 @@ body {
 /* akhir css login */
 
 
-/* mengatur warna baground dan padding pada tag body */
-
-body {
-    background: #383a3d;
-    padding-top: 10vh;
-}
-
-/* warna baground */
-form {
-    background: #fff;
-}
-
-/* mengatur border */
-
-.form-container {
-    border-radius: 10px;
-    padding: 30px;
-}
