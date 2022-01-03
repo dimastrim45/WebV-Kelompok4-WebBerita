@@ -88,3 +88,9 @@ Route::get('/login', function(){
         "home" => "login"
     ]);
 });
+
+Route::get('/register', function(){
+    return view('register', [
+        "home" => "register"
+    ]);
+});
