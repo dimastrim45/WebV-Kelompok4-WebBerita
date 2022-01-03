@@ -87,10 +87,9 @@ a {
     max-width: 25%;
 }
 
-.sosial {
+/* .sosial {
     margin: auto;
-    float: right;
-}
+} */
 
 .nav-icon img {
     height: 25px;
@@ -122,12 +121,32 @@ a {
     border-bottom-color: #777;
 }
 
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} */
+
 .navigasibar .nav > li > a {
     padding: 10px 12px 5px;
 }
 
 ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
+    position: absolute;
 }
 
 a.menu:after,

@@ -1,8 +1,10 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Models\Post;
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\AdminController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -55,9 +57,9 @@ Route::get('/konten', function () {
     ]);
 });
 
-Route::get('/food', function () {
-    return view('food', [
-        "title" => "Food"
+Route::get('/admin_post', function () {
+    return view('admin_post', [
+        "title" => "Admin_post"
     ]);
 });
 
@@ -70,17 +72,20 @@ Route::get('/about', function () {
     ]);
 });
 
-Route::get('/admin_post_add', function(){
-    return view('admin_post_add', [
-        "home" => "admin_post_add"
+Route::get('/index', function(){
+    return view('dashboard/index', [
     ]);
 });
 
-Route::get('/admin_post_view', function(){
-    return view('admin_post_view', [
-        "home" => "admin_post_view"
-    ]);
-});
+
+
+// Route::get('/admin_post_view', function(){
+//     return view('admin_post_view', [
+//         "home" => "admin_post_view"
+//     ]);
+// });
+Route::get('/admin_post_view', [PostController::class, 'indexAdmin']
+);
 
 
 Route::get('/login', function(){
@@ -94,3 +99,4 @@ Route::get('/register', function(){
         "home" => "register"
     ]);
 });
+Route::get('/admin_post_view/hapus/{id}', [AdminController::class, 'delete']);

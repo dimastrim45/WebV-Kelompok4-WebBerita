@@ -21,6 +21,15 @@ class PostController extends Controller
         ]);
     }
 
+    public function indexAdmin()
+    {
+        //berfungsi me return semua posts yang ada
+        return view('admin_post_view', [
+            "title" => "Admin Post View",
+            "posts" => Post::all()
+        ]);
+    }
+
     //berfungsi me return semua posts yang ada sesuai dengan type nya
     public function shows(){
         return view('posts', [
