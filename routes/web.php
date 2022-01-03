@@ -94,4 +94,9 @@ Route::get('/login', function(){
     ]);
 });
 
+Route::get('/register', function(){
+    return view('register', [
+        "home" => "register"
+    ]);
+});
 Route::get('/admin_post_view/hapus/{id}', [AdminController::class, 'delete']);
