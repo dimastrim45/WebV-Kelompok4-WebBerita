@@ -4,6 +4,7 @@ use App\Models\Post;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\RegisterController;
 
 
 /*
@@ -94,9 +95,13 @@ Route::get('/login', function(){
     ]);
 });
 
-Route::get('/register', function(){
-    return view('register', [
-        "home" => "register"
-    ]);
-});
+// Route::get('/register', function(){
+//     return view('register', [
+//         "home" => "register"
+//     ]);
+// });
+
+Route::get('/register', [RegisterController::class, 'index']);
+Route::post('/register', [RegisterController::class, 'store']);
+
 Route::get('/admin_post_view/hapus/{id}', [AdminController::class, 'delete']);
