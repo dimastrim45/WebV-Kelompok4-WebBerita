@@ -22,7 +22,7 @@
             <i class="fa fa-user"></i>
         </div>
 
-        <h2>Login Form</h2>
+        <h2>Login</h2>
 
         <div class="box-login">
             <i class="fas fa-envelope-open-text"></i>
@@ -36,9 +36,9 @@
 
         <button type="submit" name="login" class="btn-login">Login</button>
         <div class="bottom">
-            <button type="submit" name="cancel" class="btn-logout">Cancel</button>
+            <button type="submit" name="cancel" class="btn-cancel">Cancel</button>
             <div class="bottom">
-                <p> Belum punya account? <a href="/register">Register</a></p>
+                <p class="reg"> Belum punya account? <a href="/register">Register</a></p>
             </div>
         </div>
 
