@@ -25,12 +25,6 @@ body {
     border-top: 6px solid rgb(141, 195, 226);
 }
 
-/* * {
-    padding: 0;
-    margin: 0;
-    font-family: arial;
-} */
-
 a {
     text-decoration: none;
     color: rgb(82, 82, 82);
@@ -60,15 +54,6 @@ a {
     flex-direction: column;
     width: 100%;
 }
-
-/* .nav {
-    position: relative;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-} */
-
 .nav--column .nav__item {
     display: inline-block;
     width: 100%;
@@ -86,11 +71,6 @@ a {
     flex: 0 0 25%;
     max-width: 25%;
 }
-
-/* .sosial {
-    margin: auto;
-} */
-
 .nav-icon img {
     height: 25px;
     width: 25px;
@@ -98,7 +78,7 @@ a {
 }
 
 .logo {
-    width: 300px;
+    width: 200px;
     height: 100px;
 }
 .isi-situs {
@@ -195,14 +175,14 @@ a.menu:after,
 }
 
 .tabview {
-    background: #78042e;
+    background: #0049a8;
     padding: 5px;
     border-radius: 6px;
     width: 275px;
 }
 
 .nav-mostview {
-    background: #78042e;
+    background: #00c200;
     margin-bottom: 0;
 }
 

@@ -46,7 +46,7 @@
 
             <div class="row justify-content-between">
                 <div class="col-4">
-                    <img class="logo" src="img/berita1.jpg" />
+                    <img class="logo" src="img/logoberita.png" />
                 </div>
                 <div class="col-6">
                     <img class="img-fluid" src="img/imagesite/iklan.jpg" />
@@ -383,7 +383,7 @@
                     <div class="galeria">
                         <h5 class="judul">Galeri Video <span class="icon-film"></span></h5>
                         <div class="content">
-                            <iframe src="http://www.youtube.com/embed/ipsJ4nEbXbU" frameborder="0"
+                            <iframe src="https://www.youtube.com/embed/s0dMTAQM4cw?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=http://youtubeembedcode.com" frameborder="0"
                                 allowfullscreen=""></iframe>
                         </div>
                         <center><a href="">Lihat Semua</a></center>
