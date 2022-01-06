@@ -7,7 +7,7 @@
                 <div class="column-3 text-center">
                     <a href="/" class="justify-content-center mb-2 link-dark ">
                         <a class="bi justify-content-center" width="40" height="32">
-                            <img src="img/logo_img.png" alt="skynews" width="150">
+                            <img src="img/logoberita.png" alt="skynews" width="150">
                         </a>
                     </a>
 
