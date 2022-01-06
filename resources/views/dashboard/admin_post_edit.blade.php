@@ -11,7 +11,7 @@
 
       <div class="col-12">
           <div class="konten">
-              <h4>Tambah Postingan</h4>
+              <h4>Edit Postingan</h4>
               <hr/>
               <div class="row-fluid">
                   <div class="col-md-5 mx-2 mb-2">
@@ -39,7 +39,7 @@
                         <label>Isi Berita</label>
                         <textarea class="ckeditor" name="editor-post"></textarea>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-3">
-                            <button class="btn btn-success me-md-2" type="button">Simpan</button>
+                            <button class="btn btn-success me-md-2" type="button">Update</button>
                              <button class="btn btn-danger" type="button">Batal</button>
                         </div>
                     </div>
