@@ -60,11 +60,7 @@ Route::get('/konten', function () {
     ]);
 });
 
-Route::get('/admin_post', function () {
-    return view('admin_post', [
-        "title" => "Admin_post"
-    ]);
-});
+
 
 Route::get('/about', function () {
     return view('about', [
@@ -80,7 +76,15 @@ Route::get('/index', function(){
     ]);
 });
 
+Route::get('/admin_post_edit', function(){
+    return view('dashboard/admin_post_edit', [
+    ]);
+});
 
+Route::get('/single_post', function(){
+    return view('single_post', [
+    ]);
+});
 
 // Route::get('/admin_post_view', function(){
 //     return view('admin_post_view', [

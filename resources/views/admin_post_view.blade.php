@@ -12,42 +12,12 @@
                     <div class="konten">
                         <h4>Daftar Postingan</a></h4>
                         <hr />
-                        <div class="row">
-                            <div class="col-12">
-                                <a href="">All (13)</a> | <a href="">Published (14)</a>
-                            </div>
-                        </div>
 
                         <div class="row-fluid">
                             <div class="col-12">
                                 <div class="row-fluid">
                                     <div class="col-3">
-                                        <form>
-                                            <select name="aksi" class="col-8">
-                                                <option value="#">-Pilih Aksi-</option>
-                                                <option value="#">Edit</option>
-                                                <option value="#">Hapus</option>
-                                            </select>
-                                            <input class="btn btn-info btn-mini" type="submit" value="Terapkan" />
-                                        </form>
-                                    </div>
-                                    <div class="span6">
-                                        <form>
-                                            <select name="aksi" class="col-5">
-                                                <option value="">Show All date</option>
-                                                <option value="">Edit</option>
-                                                <option value="">Hapus</option>
-                                            </select>
-                                            <select name="aksi" class="col-5">
-                                                <option value="">View All Categories</option>
-                                                <option value="">Edit</option>
-                                                <option value="">Hapus</option>
-                                            </select>
-                                            <input class="btn btn-info btn-mini" type="submit" value="Filter" />
-                                        </form>
-                                    </div>
-                                    <div class="col-3">
-                                        <form class="form-search">
+                                        <form class="form-search mb-3">
                                             <div class="input-append">
                                                 <input type="text" class="col-8 search-query" placeholder="Cari Artikel..">
                                                 <button type="submit" class="btn"><span
@@ -89,7 +59,8 @@
                                                 <td>{{ $post->created_at }}<br />published</td>
                                                 <td colspan="2">
                                                     <p><a href=""><span class="label label-info">View</span></a></p>
-                                                    <p><a href=""><span class="label label-warning">Edit</span></a></p>
+                                                    <p><a href="#"><span
+                                                                class="label label-warning">Edit</span></a></p>
                                                     <p><a href="/admin_post_view/hapus/{{ $post->id }}"><span
                                                                 class="label label-important">Hapus</span></a></p>
                                                 </td>
@@ -102,7 +73,7 @@
                     </div>
         </div>
 
-        <footer align="center">
+        <footer class="center mt-4" >
             <h5>&copy; WEBNEWS - Powered by webnews Media</h5>
         </footer>
     @endsection
