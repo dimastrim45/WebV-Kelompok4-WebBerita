@@ -1,6 +1,7 @@
 @extends('main')
 
 @section('container')
+<title>Post | Webnews</title>
     <article>
         <h2>{{ $post->title }}</h2>
         <h5>{{ $post->author }}</h5>

@@ -12,7 +12,7 @@
     <!-- My Css -->
 
 
-    <title>web</title>
+    <title>About | Webnews</title>
 </head>
 
 <body>

@@ -12,6 +12,7 @@
 
     <!-- costum css -->
     <link rel="stylesheet" href="css/register.style.css">
+    <title>Register | Webnews</title>
 </head>
 
 <body>

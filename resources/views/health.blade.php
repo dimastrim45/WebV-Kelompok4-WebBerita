@@ -1,5 +1,6 @@
 @extends("layout/main")
 @section('container')
+<title>Health | Webnews</title>
 <div class="container" style="margin-top:40px">
     <div class="row">
         <div class="col-md-9">

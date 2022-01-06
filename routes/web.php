@@ -86,6 +86,7 @@ Route::get('/single_post', function(){
     ]);
 });
 
+
 // Route::get('/admin_post_view', function(){
 //     return view('admin_post_view', [
 //         "home" => "admin_post_view"

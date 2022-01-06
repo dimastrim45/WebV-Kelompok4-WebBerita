@@ -16,7 +16,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
         integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <title>Document</title>
+    <title>Home | Webnews</title>
 
 </head>
 
@@ -254,8 +254,9 @@
                     </div>
                     <!-- konten iklan2 -->
                     <div class="col-3 iklan2">
-                        <img class="img-fluid" src="img/imagesite/iklan2.jpg" width="300px" height="225px">
+                        <img class="img-fluid" src="/img/iklan2.jpg">
                     </div>
+                    
                     <!-- konten iklan2 -->
                 </div>
             </div>

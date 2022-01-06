@@ -2,6 +2,7 @@
 
 @section('container')
     @foreach ($posts as $post)
+    <title>Posts | Webnews</title>
         {{-- melakukan perulangan sejumlah posts --}}
         <article>
             <a href="/posts/{{ $post->slug }}">
