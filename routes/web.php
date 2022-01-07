@@ -74,7 +74,8 @@ Route::get('/index', function(){
 });
 
 Route::get('/admin_post_edit', function(){
-    return view('dashboard/admin_post_edit', [
+    return view('dashboard.admin_post_edit', [
+
     ]);
 });
 

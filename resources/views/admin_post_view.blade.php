@@ -58,11 +58,11 @@
                                                 {{-- <td><span class="badge badge-success">20</span></td> --}}
                                                 <td>{{ $post->created_at }}<br />published</td>
                                                 <td colspan="2">
-                                                    <p><a href=""><span class="label label-info">View</span></a></p>
-                                                    <p><a href="#"><span
-                                                                class="label label-warning">Edit</span></a></p>
+                                                    <p><a href=""><span class="btn btn-info btn-sm">View</span></a></p>
+                                                    <p><a href="/admin_post_edit"><span
+                                                                class="btn btn-warning btn-sm">Edit</span></a></p>
                                                     <p><a href="/admin_post_view/hapus/{{ $post->id }}"><span
-                                                                class="label label-important">Hapus</span></a></p>
+                                                                class="btn btn-danger btn-sm">Hapus</span></a></p>
                                                 </td>
                                             </tr>
                                         @endforeach
