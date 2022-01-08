@@ -7,6 +7,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\DashboardPostController;
 
 
 /*
@@ -76,10 +77,7 @@ Route::get('/index', function(){
     ]);
 });
 
-Route::get('/admin_post_edit', function(){
-    return view('dashboard/admin_post_edit', [
-    ]);
-});
+Route::get('/admin_post_edit', [DashboardPostController::class, 'index'])->middleware('auth');
 
 Route::get('/single_post', function(){
     return view('single_post', [
@@ -92,7 +90,7 @@ Route::get('/single_post', function(){
 //     ]);
 // });
 Route::get('/admin_post_view', [PostController::class, 'indexAdmin']
-);
+)->middleware('auth');
 
 
 // Route::get('/login', function(){
@@ -119,4 +117,10 @@ Route::get('/admin_post_view/hapus/{id}', [AdminController::class, 'delete']);
 
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
+
+Route::get('/admin_post_edit/{post:slug}', [DashboardPostController::class, 'edit'])->middleware('auth');
+Route::get('/admin_post_edit/update/{post:slug}', [DashboardPostController::class, 'update'])->middleware('auth');
+Route::put('/admin_post_edit/update/{post:slug}', 'DashboardPostController::class@update');
+
+// Route::resource('/dashboard/posts', DashboardPostController::class)->middleware('auth');
 
