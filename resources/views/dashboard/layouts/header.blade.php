@@ -5,10 +5,13 @@
   </button>
 
   <div class="navbar-nav">
-      <h4 class="user bg-dark" href="#">Dimas</h4>
-    <form action="/logout" method="post">
-      @csrf
-      <button type="submit" class="nav-link px-3 bg-dark border-0">Logout <span data-feather="log-out"></span></button>
-    </form>
+        <ul class="nav">
+                <li class="nav-item"><a href="#" class="nav-link link-dark px-2"><span data-feather="user"></span> Dimas</a></li>
+                <li class="nav-item"><form action="/logout" method="post">
+
+                <button type="submit" class="nav-link px-3 bg-dark border-0">Logout <span data-feather="log-out"></span></button>
+                </form></li>
+        </ul>
+
   </div>
 </header>
