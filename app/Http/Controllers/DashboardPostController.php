@@ -13,9 +13,13 @@ class DashboardPostController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function indexEdit()
     {
         return view('dashboard/admin_post_edit');
+    }
+    public function index()
+    {
+        return view('dashboard/admin_post_add');
     }
 
     /**
