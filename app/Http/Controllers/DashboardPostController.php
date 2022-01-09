@@ -43,12 +43,9 @@ class DashboardPostController extends Controller
      */
     public function store(Request $request)
     {
-        $validatedData = $request->validate([
-            'title' => 'required',
-            'slug' => 'required|uniquie:posts',
-            'category_id' => 'required',
-            'body' => 'required'
-        ]);
+        // 
+        
+        return $request;
     }
 
     /**

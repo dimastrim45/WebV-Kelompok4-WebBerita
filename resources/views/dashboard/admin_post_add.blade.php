@@ -1,3 +1,14 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/trix.css">
+    <script type="text/javascript" src="/js/trix.js"></script>
+    {{-- Trix Editor untuk body --}}
+    <style>
+        trix-toolbar [data-trix-button-group="file-tools"]{
+            display: none;
+        }
+    </style>
+    <!-- menghilangkan button attach file di Trix -->
+</head>
 @extends('dashboard.layouts.main')
 
 @section('container')
@@ -56,7 +67,9 @@
                                 <hr />
                                 <div class="row col-12">
                                     <label>Isi Berita</label>
-                                    <textarea class="  ckeditor" name="body" type="body"></textarea>
+                                    {{-- <textarea class="  ckeditor" name="body" type="body"></textarea> --}}
+                                    <input id="body" type="hidden" name="body">
+                                    <trix-editor input="body"></trix-editor>
                                     <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-3">
                                     </div>
                                     @if ($errors->has('body'))
@@ -81,6 +94,10 @@
             fetch('/dashboard/checkSlug?title=' + title.value)
                 .then(response => response.json())
                 .then(data => slug.value = data.slug)
+        });
+
+        document.addEventListener('trix-file-accept', function(e){
+            e.preventDefault();
         });
     </script>
 
