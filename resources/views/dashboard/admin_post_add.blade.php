@@ -3,9 +3,10 @@
     <script type="text/javascript" src="/js/trix.js"></script>
     {{-- Trix Editor untuk body --}}
     <style>
-        trix-toolbar [data-trix-button-group="file-tools"]{
+        trix-toolbar [data-trix-button-group="file-tools"] {
             display: none;
         }
+
     </style>
     <!-- menghilangkan button attach file di Trix -->
 </head>
@@ -19,6 +20,11 @@
         </div>
     </div>
 
+    @if (session()->has('success'))
+        <div class="alert alert-success" role="alert">
+            {{ session('success') }}
+        </div>
+    @endif
     <div class="col-12">
         <div class="konten">
             <h4>Tambah Postingan</h4>
@@ -55,15 +61,15 @@
                                         </div>
                                     @endif
                                 </div>
-                                <div class="row col-12">
+                                <!-- <div class="row col-12">
                                     <label>Excerpt</label>
-                                    <input type="excerpt" class="input mb-4" name="excerpt">
+                                    <input type="text" class="input mb-4" name="excerpt" id="excerpt">
                                     @if ($errors->has('excerpt'))
                                         <div class="text-danger">
                                             {{ $errors->first('excerpt') }}
                                         </div>
                                     @endif
-                                </div>
+                                </div> -->
                                 <hr />
                                 <div class="row col-12">
                                     <label>Isi Berita</label>
@@ -96,9 +102,18 @@
                 .then(data => slug.value = data.slug)
         });
 
-        document.addEventListener('trix-file-accept', function(e){
+        document.addEventListener('trix-file-accept', function(e) {
             e.preventDefault();
         });
+
+        // const body = document.querySelector('#body');
+        // const excerpt = document.querySelector('#excerpt');
+
+        // body.addEventListener('change', function() {
+        //     fetch('/dashboard/generateExcerpt?body=' + body.value)
+        //         .then(response => response.json())
+        //         .then(data => excerpt.value = data.excerpt)
+        // });
     </script>
 
 @endsection

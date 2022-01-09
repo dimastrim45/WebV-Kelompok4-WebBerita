@@ -118,7 +118,8 @@ Route::get('/admin_post_view/hapus/{id}', [AdminController::class, 'delete']);
 
 // Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
 // Route::get('/dashboard/post/store', [PostController::class, 'store'])->middleware('auth');
-Route::get('/dashboard/checkSlug', [DashboardPostController::class, 'checkSlug'])->middleware('auth');
+// Route::get('/dashboard/checkSlug', [DashboardPostController::class, 'checkSlug'])->middleware('auth');
+Route::get('/dashboard/generateExcerpt', [DashboardPostController::class, 'generateExcerpt'])->middleware('auth');
 Route::resource('/dashboard', DashboardPostController::class)->middleware('auth');
 Route::post('/dashboard/post/store', [PostController::class, 'store'])->middleware('auth');
 
