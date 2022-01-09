@@ -17,9 +17,9 @@
                 <div class=" row-fluid">
                     <div class=" col-md-5 mx-2 mb-2">
                         <label for="category" class="form-label mx-2">Category</label>
-                        <select class="form-category" id="category" required="">
+                        <select class="form-category" id="category" required name="category_id">
                             @foreach ($categories as $category)
-                                <option name="category">{{ $category->name }}</option>
+                                <option value="{{ $category->id }}">{{ $category->name }}</option>
                             @endforeach
                         </select>
                     </div>
@@ -28,10 +28,19 @@
                             <div class="row col-12">
                                 <div class="row col-12">
                                     <label>Judul</label>
-                                    <input type="title" class="input mb-4" name="title">
+                                    <input type="text" class="input mb-4" name="title" id="title">
                                     @if ($errors->has('title'))
                                         <div class="text-danger">
                                             {{ $errors->first('title') }}
+                                        </div>
+                                    @endif
+                                </div>
+                                <div class="row col-12">
+                                    <label>Slug</label>
+                                    <input type="text" class="input mb-4" name="slug" id="slug" disabled readonly>
+                                    @if ($errors->has('slug'))
+                                        <div class="text-danger">
+                                            {{ $errors->first('slug') }}
                                         </div>
                                     @endif
                                 </div>
@@ -41,15 +50,6 @@
                                     @if ($errors->has('excerpt'))
                                         <div class="text-danger">
                                             {{ $errors->first('excerpt') }}
-                                        </div>
-                                    @endif
-                                </div>
-                                <div class="row col-12">
-                                    <label>Slug</label>
-                                    <input type="slug" class="input mb-4" name="slug">
-                                    @if ($errors->has('slug'))
-                                        <div class="text-danger">
-                                            {{ $errors->first('slug') }}
                                         </div>
                                     @endif
                                 </div>
@@ -72,7 +72,16 @@
             </form>
         </div>
     </div>
-    </div>
-    </div>
+
+    <script>
+        const title = document.querySelector('#title');
+        const slug = document.querySelector('#slug');
+
+        title.addEventListener('change', function() {
+            fetch('/dashboard/checkSlug?title=' + title.value)
+                .then(response => response.json())
+                .then(data => slug.value = data.slug)
+        });
+    </script>
 
 @endsection
