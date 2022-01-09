@@ -117,6 +117,9 @@ Route::get('/admin_post_view/hapus/{id}', [AdminController::class, 'delete']);
 
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
+// Route::get('/dashboard/post/store', [PostController::class, 'store'])->middleware('auth');
+Route::resource('/dashboard', DashboardPostController::class)->middleware('auth');
+Route::post('/dashboard/post/store', [PostController::class, 'store'])->middleware('auth');
 
 Route::get('/admin_post_edit/{post:slug}', [DashboardPostController::class, 'edit'])->middleware('auth');
 Route::get('/admin_post_edit/update/{post:slug}', [DashboardPostController::class, 'update'])->middleware('auth');

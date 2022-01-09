@@ -57,7 +57,29 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'title' => 'required',
+            'excerpt' => 'required',
+            'body' => 'required',
+            'category' => 'required'
+        ]);
+
+        $post = Post::create([
+            'title' => $request->title,
+            'category_id' => $request->$category->id,
+            'slug' => $request->slug,
+            'author' => 'Dimas',
+            'excerpt' => $request->excerpt,
+            'body' => $request->body,
+        ]);
+
+        if ($post) {
+            return redirect('/dashboard');
+        } else {
+            "Add Data Failed";
+        }
+        
+        
     }
 
     /**

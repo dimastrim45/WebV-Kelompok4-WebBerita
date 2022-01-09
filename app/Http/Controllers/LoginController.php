@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Category;
 use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
@@ -14,6 +15,7 @@ class LoginController extends Controller
     }
 
     public function authenticate(Request $request){
+        $categories = Category::all();
         $credentials = $request->validate([
             'email' => 'required|email:dns',
             'password' => 'required'
@@ -22,7 +24,9 @@ class LoginController extends Controller
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
 
-            return redirect()->intended('/dashboard');
+            
+            return redirect()->intended('/dashboard')->with([
+                'categories' => $categories]);
         }
 
         return back()->with('loginError', 'Login Gagal');
@@ -32,11 +36,11 @@ class LoginController extends Controller
     {
     Auth::logout();
 
-    $request->session()->invalidate();
+    // $request->session()->invalidate();
 
-    $request->session()->regenerateToken();
+    // $request->session()->regenerateToken();
 
-    return redirect('/');
+    return redirect('/login');
     }
 
 }
