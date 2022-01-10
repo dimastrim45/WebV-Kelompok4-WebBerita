@@ -94,20 +94,20 @@ class DashboardPostController extends Controller
      */
     public function update(Request $request, Post $post)
     {
-        $this->validate($request,[
+        $validatedData = $request->validate([
             'title' => 'required',
-            'excerpt' => 'required',
-            'slug' => 'required',
+            'slug' => 'required|unique:posts',
+            // 'excerpt' => 'required',
+            'category_id' => 'required',
             'body' => 'required'
-            ]);
-        
-            $post = Post::find($slug);
-            $post->title = $request->title;
-            $post->excerpt = $request->excerpt;
-            $post->slug = $request->slug;
-            $post->body = $request->body;
-            $post->save();
-            return redirect('/admin_post_edit/');
+        ]);
+
+        $validatedData['user_id'] = auth()->user()->id;
+        $validatedData['excerpt'] = Str::limit(strip_tags($request->body), 200, '...');
+            
+        Post::where('id', $post->id)
+            ->update($validatedData);
+        return redirect('/dashboard')->with('success', 'Post Edited Successfully');
     }
 
     /**
