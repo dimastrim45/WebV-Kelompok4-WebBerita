@@ -10,7 +10,7 @@ class Post extends Model
     use HasFactory;
     use Sluggable;
 
-    protected $fillable = ['title', 'category_id', 'user_id', 'slug', 'author', 'type', 'excerpt', 'body', 'published_at', 'created_at'];
+    protected $fillable = ['title', 'category_id', 'user_id', 'slug', 'type', 'excerpt', 'body', 'published_at', 'created_at'];
 
     public function category(){
         return $this->belongsTo(Category::class);

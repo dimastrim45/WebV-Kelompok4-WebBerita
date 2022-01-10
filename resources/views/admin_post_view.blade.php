@@ -38,7 +38,6 @@
                             <tr>
                                 <td><input type="checkbox" name="radio" value="pilihsemua" /></td>
                                 <td>Judul Posting</td>
-                                <td>Penulis</td>
                                 <td>Kategori</td>
                                 <td>Date</td>
                                 <td colspan="2">Aksi</td>
@@ -50,7 +49,6 @@
                                 <tr>
                                     <td><input type="checkbox" name="radio" value="pilihsemua" /></td>
                                     <td><a href="">{{ $post->title }}</a></td>
-                                    <td><a href="">{{ $post->author }}</a></td>
                                     <td><a href="">{{ $post->category->name }}</a></td>
                                     {{-- <td><span class="badge badge-success">20</span></td> --}}
                                     <td>{{ $post->created_at }}<br />published</td>

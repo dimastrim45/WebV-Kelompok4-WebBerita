@@ -54,7 +54,7 @@
                                 </div>
                                 <div class="row col-12">
                                     <label>Slug</label>
-                                    <input type="text" class="input mb-4" name="slug" id="slug" disabled readonly>
+                                    <input type="text" class="input mb-4" name="slug" id="slug" readonly>
                                     @if ($errors->has('slug'))
                                         <div class="text-danger">
                                             {{ $errors->first('slug') }}
