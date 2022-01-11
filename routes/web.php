@@ -21,46 +21,11 @@ use App\Http\Controllers\DashboardPostController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('posts', [
-//         "title" => "Home"
-//     ]);
-// });
-
 //routing default ke posts
-//Route::get('/', [PostController::class, 'index']);
 Route::get('/', [PostController::class, 'index']
-// function(){
-//     return view('home', [
-//         "title" => 'Home'
-//     ]);
-// }
 );
 
-Route::get('/health', function () {
-    return view('health', [
-        "title" => "Health"
-    ]);
-});
-
-Route::get('/education', function () {
-    return view('education', [
-        "title" => "Education"
-    ]);
-});
-
-Route::get('/techno', function () {
-    return view('konten', [
-        "title" => "Technology"
-    ]);
-});
-
-Route::get('/konten', function () {
-    return view('konten', [
-        "title" => "konten"
-    ]);
-});
-
+Route::get('/{post:slug}', [PostController::class, 'show']);
 
 
 Route::get('/about', function () {

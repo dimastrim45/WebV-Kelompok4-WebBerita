@@ -91,7 +91,7 @@ class PostController extends Controller
     public function show(Post $post)
     {
         //berfungsi untuk me return view single post
-        return view('post', [
+        return view('single_post', [
             "title" => "Single Post",
             // "post" => Post::find($post)
             "post" => $post

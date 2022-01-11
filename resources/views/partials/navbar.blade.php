@@ -1,10 +1,11 @@
 <link rel="stylesheet" href="css/style.css">
 <nav class="navbar mb-5 navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
     <div class="container">
-      <a class="navbar-brand " href="#">WEBNEWS</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <a class="navbar-brand " href="#">WEBNEWS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
         {{-- <div class="collapse navbar-collapse" id="navbarNav">
             <div class="sosial">
@@ -29,6 +30,9 @@
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
-    </div>
-  </nav>
 
+        <form action="/login">
+            <input type="submit" class="btn btn-primary" value="Login">
+        </form>
+    </div>
+</nav>
