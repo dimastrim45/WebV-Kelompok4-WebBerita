@@ -16,7 +16,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
         integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <title>Document</title>
+    <title>Home | Webnews</title>
 
 </head>
 
@@ -32,7 +32,7 @@
     @include('partials/navbar')
 
     {{-- menu atas --}}
-    <div class="container">
+    <div class="container mb-5">
         <div class="container userid mt-5">
             <div class="row justify-content-end">
                 <div class="col-5 ">
@@ -46,7 +46,7 @@
 
             <div class="row justify-content-between">
                 <div class="col-4">
-                    <img class="logo" src="img/berita1.jpg" />
+                    <img class="logo" src="img/logoberita.png" />
                 </div>
                 <div class="col-6">
                     <img class="img-fluid" src="img/imagesite/iklan.jpg" />
@@ -204,7 +204,7 @@
                                         </div>
                                         <h3><a href="http://www.mmm.unifi.it/primo-piano/intervista-con-luca-farulli">Luca
                                                 Farulli interview</a></h3>
-                                        <p>Luca Farulli, professor of Aesthetics at the Academy of Fine Arts of Venice,
+                                            <p>Luca Farulli, professor of Aesthetics at the Academy of Fine Arts of Venice,
                                             is the owner of the course of aesthetics of digital art and coordinator of
                                             the workshop for the Master of Arts and Multimedia <br /><a
                                                 href="http://www.mmm.unifi.it/primo-piano/intervista-con-luca-farulli">
@@ -254,80 +254,54 @@
                     </div>
                     <!-- konten iklan2 -->
                     <div class="col-3 iklan2">
-                        <img class="img-fluid" src="img/imagesite/iklan2.jpg" width="300px" height="225px">
+                        <img class="img-fluid" src="/img/imagesite/iklan2.jpg">
                     </div>
+
                     <!-- konten iklan2 -->
                 </div>
             </div>
 
             <div class="row isipilihan">
                 <div class="col-3">
-                    <!-- mostview -->
-                    <div class="tabview">
-                        <ul class="nav nav-tabs nav-mostview" id="myTab">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#tab1" aria-current="tab">Most Popular</a>
+                    <div class="box__header mt-1">
+                        <h4 class="box__title" style="color: rgb(125, 62, 243)">Berita Terpopuler</h4>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <a class="list_berita" href="#">
+                                    <i class="bi bi-hash">1 </i>
+                                 Keren! Samsung Ungkap 4 Inovasi Layar Lipat Baru Di CES 2022
+                                </a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#tab2" data-toggle="tab">Most Commented</a>
+                            <li class="list-group-item">
+                                <a class="list_berita" href="#">
+                                    <i class="bi bi-hash">2 </i>
+                                Canggihnya Galaxy Watch 4, Bisa Hitung Komposisi Tubuh-Detak Jantung
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="list_berita" href="#">
+                                    <i class="bi bi-hash">3 </i>
+                                Produk Laptop Terbaru Dari Brand Asus Yang Multifungsi
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="list_berita" href="#">
+                                    <i class="bi bi-hash">4 </i>
+                                Produk Laptop Terbaru Dari Brand Asus Yang Multifungsi
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="list_berita" href="#">
+                                    <i class="bi bi-hash">5 </i>
+                                Produk Laptop Terbaru Dari Brand Asus Yang Multifungsi
+                                </a>
                             </li>
                         </ul>
-
-                        <div class="tab-content tabview-content">
-                            <div class="tab-pane active" id="tab1">
-                                <div class="judul-artikel-ticker">
-                                    <small>Rabu, 17 Agustus 2018 - 07:00</small>
-                                    <h6><a href="">Banyak Tawaran Event Pra Musim</a></h6>
-                                </div>
-                                <div class="judul-artikel-ticker">
-                                    <small>Rabu, 17 Agustus 2018 - 07:00</small>
-                                    <h6><a href="">Kedatangan Greg-Victor Tertunda</a></h6>
-                                </div>
-                                <div class="judul-artikel-ticker">
-                                    <small>Rabu, 17 Agustus 2018 - 07:00</small>
-                                    <h6><a href="">Manajemen Tunggu Slave</a></h6>
-                                </div>
-                                <div class="judul-artikel-ticker">
-                                    <small>Rabu, 17 Agustus 2018 - 07:00</small>
-                                    <h6><a href="">Masih Samar-Samar</a></h6>
-                                </div>
-                                <div class="judul-artikel-ticker">
-                                    <small>Rabu, 17 Agustus 2018 - 07:00</small>
-                                    <h6><a href="">Penuhi Janji, Suhadi Diperiksa</a></h6>
-                                </div>
-                                <div class="judul-artikel-ticker">
-                                    <small>Rabu, 17 Agustus 2018 - 07:00</small>
-                                    <h6><a href="">Petani Ancam Laporkan BPN ke KPK</a></h6>
-                                </div>
+                            <div class="d-grid gap-2 mx-auto mt-4 mb-4">
+                                <button class="button_list button2 rounded-3" type="button">Selengkapnya  <i class="bi bi-arrow-right"></i></button>
                             </div>
-                            <div class="tab-pane" id="tab2">
-                                <div class="judul-artikel-ticker">
-                                    <small>Rabu, 17 Agustus 2018 - 07:00</small>
-                                    <h6><a href="">Montir Lawang Hisap SS</a></h6>
-                                </div>
-                                <div class="judul-artikel-ticker">
-                                    <small>Rabu, 17 Agustus 2018 - 07:00</small>
-                                    <h6><a href="">Curanmor Obok-obok Kendalsari</a></h6>
-                                </div>
-                                <div class="judul-artikel-ticker">
-                                    <small>Rabu, 17 Agustus 2018 - 07:00</small>
-                                    <h6><a href="">Sopir Rental Mobil Dibius</a></h6>
-                                </div>
-                                <div class="judul-artikel-ticker">
-                                    <small>Rabu, 17 Agustus 2018 - 07:00</small>
-                                    <h6><a href="">Keyko ‘Ratu Germo’ Ngotot Hanya Mucikari Biasa Bantah Anak Buahnya
-                                            Mencapai 1600 Perempuan</a></h6>
-                                </div>
-                                <div class="judul-artikel-ticker">
-                                    <small>Rabu, 17 Agustus 2018 - 07:00</small>
-                                    <h6><a href="">Penuhi Janji, Suhadi Diperiksa</a></h6>
-                                </div>
-                                <div class="judul-artikel-ticker">
-                                    <small>Rabu, 17 Agustus 2018 - 07:00</small>
-                                    <h6><a href="">Panwaslu Tancap Gas</a></h6>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
@@ -344,7 +318,7 @@
                                             href="/post/{{ $post->slug }}">{{ $post->title }}</a>
                                     </h4>
                                     <img class="img-polaroid" src="img/imagesite/post/p10.png" />
-                                    <p>{{ $post->excerpt }}</p>
+                                    <p>{!! $post->excerpt !!}</p>
                                     <a href="/post/{{ $post->slug }}" class="lengkap">Selengkapnya &raquo;</a>
                                 </div>
                             @endforeach
@@ -384,15 +358,16 @@
                     <div class="galeria">
                         <h5 class="judul">Galeri Video <span class="icon-film"></span></h5>
                         <div class="content">
-                            <iframe src="http://www.youtube.com/embed/ipsJ4nEbXbU" frameborder="0"
+                            <iframe src="https://www.youtube.com/embed/s0dMTAQM4cw?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=http://youtubeembedcode.com" frameborder="0"
                                 allowfullscreen=""></iframe>
                         </div>
                         <center><a href="">Lihat Semua</a></center>
                     </div>
                 </div>
             </div>
-
-
+        </div>
+        </div>
+        @include('partials/footer')
 
             <!-- JavaScript Bundle with Popper -->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -400,18 +375,15 @@
             </script>
             <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
             <script type="text/javascript" src="js/jquery.accessible-news-slider.js"></script>
-            <script type="text/javascript" src="js/jquery.retina.js"></script>
-            <script src="js/weather/jquery.zweatherfeed.min.js" type="text/javascript"></script>
-            <script type="text/javascript" src="js/coin-slider.min.js"></script>
 
-            <script src="js/jquery.js"></script>
-            <script src="js/jquery-ui.js"></script>
+
             <script src="js/bootstrap-dropdown.js"></script>
             <script src="js/bootstrap-collapse.js"></script>
             <script src="js/ckeditor/ckeditor.js"></script>
 
 
-            @include('partials/footer')
+
 </body>
+
 
 </html>

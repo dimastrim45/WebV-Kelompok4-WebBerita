@@ -29,6 +29,8 @@
         }
 
     </style>
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/style.css">
     @include('partials/navbar')
 
     {{-- isi post --}}
@@ -67,17 +69,17 @@
                                 <h2 class="iklantitle">IKLAN UNTUK ANDA</h2>
                                 <hr>
                                 <div class="row  justify-content-center">
-                                    <div class="card_ads" style="width: 18rem;">
+                                    <div class="card_ads" style="width: 16rem;">
                                         <img src="/img/laptop.jpg" class="card-img-top" alt="...">
                                         <a herf="" class="card-title">Laptop murah dikelasnya dengan harga
                                             terjangkau..!</a>
                                     </div>
-                                    <div class="card_ads" style="width: 18rem;">
+                                    <div class="card_ads" style="width: 16rem;">
                                         <img src="/img/laptop.jpg" class="card-img-top" alt="...">
                                         <a herf="" class="card-title">Laptop murah dikelasnya dengan harga
                                             terjangkau..!</a>
                                     </div>
-                                    <div class="card_ads" style="width: 18rem;">
+                                    <div class="card_ads" style="width: 16rem;">
                                         <img src="/img/laptop.jpg" class="card-img-top" alt="...">
                                         <a herf="" class="card-title">Laptop murah dikelasnya dengan harga
                                             terjangkau..!</a>
@@ -169,7 +171,7 @@
     </script>
     <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
 
-    @include('partials/footer')
+@include('partials/footer')
 </body>
 
 </html>
