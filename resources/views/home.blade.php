@@ -340,11 +340,12 @@
                                 <!-- foreach untuk melooping isi dari array didalam $posts sebagai single $post -->
                                 <div class="isi-terbaru">
                                     <span class="date">Sabtu, 17/12/2021 14:41 WIB</span>
-                                    <h4 class="judul-terbaru"><a href="/{{ $post->slug }}">{{ $post->title }}</a>
+                                    <h4 class="judul-terbaru"><a
+                                            href="/post/{{ $post->slug }}">{{ $post->title }}</a>
                                     </h4>
                                     <img class="img-polaroid" src="img/imagesite/post/p10.png" />
                                     <p>{{ $post->excerpt }}</p>
-                                    <a href="/{{ $post->slug }}" class="lengkap">Selengkapnya &raquo;</a>
+                                    <a href="/post/{{ $post->slug }}" class="lengkap">Selengkapnya &raquo;</a>
                                 </div>
                             @endforeach
 
