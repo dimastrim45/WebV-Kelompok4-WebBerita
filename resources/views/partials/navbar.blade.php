@@ -34,5 +34,8 @@
         <form action="/login">
             <input type="submit" class="btn btn-primary" value="Login">
         </form>
+        <form action="/dashboard">
+            <input type="submit" class="btn btn-primary" value="Upload">
+        </form>
     </div>
 </nav>

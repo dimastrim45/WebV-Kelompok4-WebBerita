@@ -11,9 +11,8 @@
                     Dimas</a></li>
             <li class="nav-item">
                 <form action="/logout" method="post">
-
-                    <button type="submit" class="nav-link px-3 bg-dark border-0" href="{{ url('/logout') }}"
-                        method="post">Logout
+                    @csrf
+                    <button class="nav-link px-3 bg-dark border-0">Logout
                         <span data-feather="log-out"></span></button>
                 </form>
             </li>
