@@ -93,12 +93,13 @@ Route::get('/admin_post_view/hapus/{id}', [AdminController::class, 'delete']);
 Route::get('/dashboard/checkSlug', [DashboardPostController::class, 'checkSlug'])->middleware('auth');
 Route::get('/dashboard/generateExcerpt', [DashboardPostController::class, 'generateExcerpt'])->middleware('auth');
 Route::resource('/dashboard', DashboardPostController::class)->middleware('auth');
-Route::put('/dashboard/{post:slug}', [DashboardPostController::class, 'update'])->middleware('auth');
+Route::put('/dashboard/{post:slug}/edit', [DashboardPostController::class, 'update'])->middleware('auth');
 Route::post('/dashboard/post/store', [PostController::class, 'store'])->middleware('auth');
 
 Route::get('/admin_post_edit/{post:slug}', [DashboardPostController::class, 'edit'])->middleware('auth');
-Route::get('/admin_post_edit/update/{post:slug}', [DashboardPostController::class, 'update'])->middleware('auth');
-Route::put('/admin_post_edit/update/{post:slug}', 'DashboardPostController::class@update');
+// Route::get('/admin_post_edit/update/{post:slug}', [DashboardPostController::class, 'update'])->middleware('auth');
+// Route::put('/admin_post_edit/update/{post:slug}', ['DashboardPostController::class', 'update']);
+Route::put('/admin_post_edit/{post:slug}', [DashboardPostController::class, 'update']);
 
 // Route::resource('/dashboard/posts', DashboardPostController::class)->middleware('auth');
 

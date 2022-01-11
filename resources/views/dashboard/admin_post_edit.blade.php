@@ -29,7 +29,7 @@
         <div class="konten">
             <h4>Edit Postingan</h4>
             <hr />
-            <form method="post" action="/dashboard/{{ $post->slug }}">
+            <form method="post" action="/admin_post_edit/{{ $post->slug }}">
                 @method('put')
                 @csrf
                 <div class=" row-fluid">
@@ -65,14 +65,14 @@
                                     @endif
                                 </div>
                                 <!-- <div class="row col-12">
-                                                            <label>Excerpt</label>
-                                                            <input type="text" class="input mb-4" name="excerpt" id="excerpt">
-                                                            @if ($errors->has('excerpt'))
-                                                                <div class="text-danger">
-                                                                    {{ $errors->first('excerpt') }}
-                                                                </div>
-                                                            @endif
-                                                        </div> -->
+                                                                            <label>Excerpt</label>
+                                                                            <input type="text" class="input mb-4" name="excerpt" id="excerpt">
+                                                                            @if ($errors->has('excerpt'))
+                                                                                <div class="text-danger">
+                                                                                    {{ $errors->first('excerpt') }}
+                                                                                </div>
+                                                                            @endif
+                                                                        </div> -->
                                 <hr />
                                 <div class="row col-12">
                                     <label>Isi Berita</label>
