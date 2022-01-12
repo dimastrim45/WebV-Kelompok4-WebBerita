@@ -99,8 +99,9 @@ a {
 }
 
 .logo {
-    width: 300px;
+    width: auto;
     height: 100px;
+    padding: inherit;
 }
 .isi-situs {
     background: #edf3f5;
@@ -127,25 +128,6 @@ a {
     border-top-color: white;
     border-bottom-color: #777;
 }
-
-/* .dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-} */
 
 .navigasibar .nav > li > a {
     padding: 10px 12px 5px;
@@ -199,24 +181,6 @@ a.menu:after,
 .iklan2 img {
     width: 300px;
     height: 255px;
-}
-
-.tabview {
-    background: #78042e;
-    padding: 5px;
-    border-radius: 6px;
-    width: 275px;
-}
-
-.nav-mostview {
-    background: #78042e;
-    margin-bottom: 0;
-}
-
-.tabview-content {
-    background: #fff;
-    padding: 5px;
-    border-radius: 2px;
 }
 
 .iklan3 {
@@ -334,7 +298,7 @@ h6 {
     background-color: #6c8aac;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 6px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
