@@ -8,7 +8,7 @@
                 <div class="column-3 text-center">
                     <a href="/" class="justify-content-center mb-2 link-dark ">
                         <a class="bi justify-content-center" width="40" height="32">
-                            <img src="img/logoberita.png" alt="skynews" width="150">
+                            <img src="{{ $url=asset('img/logoberita.png') }}" alt="skynews" width="150">
                         </a>
                     </a>
 
@@ -17,13 +17,13 @@
 
                         <ul class="nav justify-content-center">
                             <li class="nav-item mb-2">
-                                <a href="#" class="nav-link p-1"><img src="img/fb.png" alt="Facebook" width="40"></a>
+                                <a href="https://www.facebook.com/" class="nav-link p-1"> <img src="{{ $url=asset('img/fb.png') }}" alt="Facebook" width="40"></a>
                             </li>
                             <li class="nav-item mb-2">
-                                <a href="#" class="nav-link p-1 text-muted"><img src="img/ig.png" alt="Instagram" width="40"></a>
+                                <a href="https://www.instagram.com/" class="nav-link p-1 text-muted"><img src="{{ $url=asset('img/ig.png') }}" alt="Instagram" width="40"></a>
                             </li>
                             <li class="nav-item mb-2">
-                                <a href="#" class="nav-link p-1 text-muted"><img src="img/in.png" alt="LinkedIn" width="40"></a>
+                                <a href="https://id.linkedin.com/" class="nav-link p-1 text-muted"><img src="{{ $url=asset('img/in.png') }}" alt="LinkedIn" width="40"></a>
                             </li>
                         </ul>
                     </div>
@@ -35,22 +35,22 @@
                     <h4>Kategori</h4>
                     <ul class="nav nav--column">
                         <li class="nav_item mb-2">
-                            <a href="#" class="nav-link p-0 text-muted">Kriminal</a>
+                            <a href="/category/kriminal" class="nav-link p-0 text-muted">Kriminal</a>
                         </li>
                         <li class="nav_item mb-2">
-                            <a href="#" class="nav-link p-0 text-muted">Politik & Hukum</a>
+                            <a href="/category/politik" class="nav-link p-0 text-muted">Politik & Hukum</a>
                         </li>
                         <li class="nav_item mb-2">
-                            <a href="#" class="nav-link p-0 text-muted">Sains Teknologi</a>
+                            <a href="/category/sains-teknologi" class="nav-link p-0 text-muted">Sains Teknologi</a>
                         </li>
                         <li class="nav_item mb-2">
-                            <a href="#" class="nav-link p-0 text-muted">Infotainment</a>
+                            <a href="/category/infotaiment" class="nav-link p-0 text-muted">Infotainment</a>
                         </li>
                         <li class="nav_item mb-2">
-                            <a href="#" class="nav-link p-0 text-muted">Ekonomi</a>
+                            <a href="/category/ekonomi" class="nav-link p-0 text-muted">Ekonomi</a>
                         </li>
                         <li class="nav_item mb-2">
-                            <a href="#" class="nav-link p-0 text-muted">Olahraga</a>
+                            <a href="/category/olahraga" class="nav-link p-0 text-muted">Olahraga</a>
                         </li>
                     </ul>
             </div>

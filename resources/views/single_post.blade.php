@@ -11,8 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="{{asset('../css/style.css')}}" />
+    <link rel="stylesheet" href="{{asset('../css/test.css')}}" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
         integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -59,7 +59,7 @@
                         <hr>
                         <div class="article_con">
                             <div class="artimg pb-20 mb-4">
-                                <img class="imgfull img-fluid rounded mx-auto d-block" href="" src="img/comp1.jpg">
+                                <img class="imgfull img-fluid rounded mx-auto d-block" href="" src="{{ $url=asset('img/comp1.jpg') }}">
                             </div>
                             <div class="body_content">
                                 {!! $post->body !!}

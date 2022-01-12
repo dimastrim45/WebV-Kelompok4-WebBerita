@@ -37,7 +37,6 @@
             <div class="row justify-content-end">
                 <div class="col-5 ">
                     <h6 style="float: left;">Selamat Datang, Tamu</h6>
-                    <a href=""><img src="img/imagesite/Facebook.png" /></a>
                 </div>
             </div>
         </div>
