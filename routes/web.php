@@ -35,19 +35,19 @@ Route::get('/post/{post:slug}', [PostController::class, 'show']);
 
 
 
-Route::get('/about', function () {
-    return view('about', [
-        "title" => "About",
-        "name" => "Sam Martin",
-        "email" => "sammartintm45@gmail.com",
-        "image" => "profile.jpg"
-    ]);
-});
+// Route::get('/about', function () {
+//     return view('about', [
+//         "title" => "About",
+//         "name" => "Sam Martin",
+//         "email" => "sammartintm45@gmail.com",
+//         "image" => "profile.jpg"
+//     ]);
+// });
 
-Route::get('/index', function(){
-    return view('dashboard/index', [
-    ]);
-});
+// Route::get('/index', function(){
+//     return view('dashboard/index', [
+//     ]);
+// });
 
 Route::get('/admin_post_edit', [DashboardPostController::class, 'index'])->middleware('auth');
 
